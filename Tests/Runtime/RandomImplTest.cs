@@ -7,12 +7,12 @@ using NUnit.Framework;
 namespace TestHelper.Random
 {
     [TestFixture]
-    public class RandomWrapperTest
+    public class RandomImplTest
     {
         [Test]
         public void Constructor()
         {
-            var sut = new RandomWrapper(1);
+            var sut = new RandomImpl(1);
             var actual = sut.Next();
 
             Assert.That(actual, Is.EqualTo(534011718));
@@ -21,7 +21,7 @@ namespace TestHelper.Random
         [Test]
         public void Constructor_NegativeSeedValue_UsingAbsoluteValue()
         {
-            var sut = new RandomWrapper(-1);
+            var sut = new RandomImpl(-1);
             var actual = sut.Next();
 
             Assert.That(actual, Is.EqualTo(534011718)); // Same as seed=1
@@ -30,10 +30,10 @@ namespace TestHelper.Random
         [Test]
         public void DefaultConstructor_UsingTickCount()
         {
-            var usingTickCount = new RandomWrapper(Environment.TickCount);
+            var usingTickCount = new RandomImpl(Environment.TickCount);
             var expected = usingTickCount.Next();
 
-            var sut = new RandomWrapper();
+            var sut = new RandomImpl();
             var actual = sut.Next();
 
             Assert.That(actual, Is.EqualTo(expected));
