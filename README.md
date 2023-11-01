@@ -4,7 +4,7 @@
 [![Test](https://github.com/nowsprinting/test-helper.random/actions/workflows/test.yml/badge.svg)](https://github.com/nowsprinting/test-helper.random/actions/workflows/test.yml)
 [![openupm](https://img.shields.io/npm/v/com.nowsprinting.test-helper.random?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.nowsprinting.test-helper.random/)
 
-Reference implementation wrapper and stubs for UnityEngine.Random use in tests.
+Wrapper and test stubs reference implementation for `UnityEngine.Random`.
 
 Required Unity 2019 LTS or later.
 
@@ -12,8 +12,10 @@ Required Unity 2019 LTS or later.
 
 ## Features
 
+### Wrapper class for UnityEngine.Random
 
-
+`UnityEngine.Random` class provides static methods.
+You can inject test stub in your tests by replacing it with a `RandomImpl` instance.
 
 
 
