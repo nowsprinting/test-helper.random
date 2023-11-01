@@ -1,0 +1,32 @@
+{
+  "name": "com.nowsprinting.test-helper.random",
+  "description": "Reference implementation wrapper and stubs for UnityEngine.Random use in tests",
+  "version": "0.1.0",
+  "author": "Koji Hasegawa <hasegawa@hubsys.co.jp> (https://github.com/nowsprinting)",
+  "category": "Unity Test Framework",
+  "changelogUrl": "https://github.com/nowsprinting/test-helper.random/releases",
+  "dependencies": {
+  },
+  "displayName": "Random Test Helper",
+  "documentationUrl": "https://github.com/nowsprinting/test-helper.random/blob/master/README.md",
+  "files": [
+    "Documentation~",
+    "Runtime*",
+    "Tests*",
+    "LICENSE.md*",
+    "package.json*",
+    "README.md*"
+  ],
+  "keywords": [
+    "TestFramework",
+    "unit testing",
+    "integration testing",
+    "test",
+    "random"
+  ],
+  "license": "MIT",
+  "licensesUrl": "https://github.com/nowsprinting/test-helper.random/blob/master/LICENSE.md",
+  "repository": "https://github.com/nowsprinting/test-helper.random",
+  "unity": "2019.4",
+  "unityRelease": "0f1"
+}
