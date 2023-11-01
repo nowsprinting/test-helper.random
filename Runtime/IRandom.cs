@@ -64,14 +64,14 @@ namespace TestHelper.Random
         /// </summary>
         /// <param name="minInclusive"></param>
         /// <param name="maxExclusive"></param>
-        int Range(int minInclusive, int maxExclusive) => Next(minInclusive, maxExclusive);
+        int Range(int minInclusive, int maxExclusive);
 
         /// <summary>
         /// Return a random int within [minInclusive..maxExclusive) (Read Only).
         /// </summary>
         /// <param name="minInclusive"></param>
         /// <param name="maxExclusive"></param>
-        int RandomRangeInt(int minInclusive, int maxExclusive) => Next(minInclusive, maxExclusive);
+        int RandomRangeInt(int minInclusive, int maxExclusive);
 
         /// <summary>
         /// Returns a random float within [0.0..1.0] (range is inclusive) (Read Only).
@@ -83,31 +83,31 @@ namespace TestHelper.Random
         /// Returns a random point inside or on a sphere with radius 1.0 (Read Only).
         /// </summary>
         // ReSharper disable once InconsistentNaming
-        public Vector3 insideUnitSphere();
+        Vector3 insideUnitSphere();
 
         /// <summary>
         /// Returns a random point inside or on a circle with radius 1.0 (Read Only).
         /// </summary>
         // ReSharper disable once InconsistentNaming
-        public Vector2 insideUnitCircle();
+        Vector2 insideUnitCircle();
 
         /// <summary>
         /// Returns a random point on the surface of a sphere with radius 1.0 (Read Only).
         /// </summary>
         // ReSharper disable once InconsistentNaming
-        public Vector3 onUnitSphere();
+        Vector3 onUnitSphere();
 
         /// <summary>
         /// Returns a random rotation (Read Only).
         /// </summary>
         // ReSharper disable once InconsistentNaming
-        public Quaternion rotation();
+        Quaternion rotation();
 
         /// <summary>
         /// Returns a random rotation with uniform distribution (Read Only).
         /// </summary>
         // ReSharper disable once InconsistentNaming
-        public Quaternion rotationUniform();
+        Quaternion rotationUniform();
 
         /// <summary>
         /// Generates a random color from HSV and alpha ranges.
@@ -123,7 +123,7 @@ namespace TestHelper.Random
         /// <returns>
         /// A random color with HSV and alpha values in the (inclusive) input ranges. Values for each component are derived via linear interpolation of value.
         /// </returns>
-        public Color ColorHSV(
+        Color ColorHSV(
             float hueMin = 0.0f,
             float hueMax = 1.0f,
             float saturationMin = 0.0f,

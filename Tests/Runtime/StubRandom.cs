@@ -58,10 +58,12 @@ namespace TestHelper.Random
             throw new NotImplementedException();
         }
 
+#if UNITY_2021_2_OR_NEWER
         public void NextBytes(Span<byte> buffer)
         {
             throw new NotImplementedException();
         }
+#endif
 
         public double NextDouble()
         {
@@ -72,6 +74,10 @@ namespace TestHelper.Random
         {
             throw new NotImplementedException();
         }
+
+        public int Range(int minInclusive, int maxExclusive) => Next(minInclusive, maxExclusive);
+
+        public int RandomRangeInt(int minInclusive, int maxExclusive) => Next(minInclusive, maxExclusive);
 
         public float value()
         {
@@ -103,7 +109,8 @@ namespace TestHelper.Random
             throw new NotImplementedException();
         }
 
-        public Color ColorHSV(float hueMin = 0, float hueMax = 1, float saturationMin = 0, float saturationMax = 1, float valueMin = 0,
+        public Color ColorHSV(float hueMin = 0, float hueMax = 1, float saturationMin = 0, float saturationMax = 1,
+            float valueMin = 0,
             float valueMax = 1, float alphaMin = 1, float alphaMax = 1)
         {
             throw new NotImplementedException();

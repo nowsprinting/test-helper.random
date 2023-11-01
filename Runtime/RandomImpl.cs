@@ -77,6 +77,12 @@ namespace TestHelper.Random
         }
 
         /// <inheritdoc />
+        public int Range(int minInclusive, int maxExclusive) => Next(minInclusive, maxExclusive);
+
+        /// <inheritdoc />
+        public int RandomRangeInt(int minInclusive, int maxExclusive) => Next(minInclusive, maxExclusive);
+
+        /// <inheritdoc />
         public float value()
         {
             throw new NotImplementedException();
