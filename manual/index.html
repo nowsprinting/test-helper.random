@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Random Test Helper | Random Test Helper | 0.1.0 </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Random Test Helper | Random Test Helper | 0.1.0 ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:disablenewtab" content="true">
+      
+      <meta name="docfx:docurl" content="https://github.com/nowsprinting/test-helper.random/blob/master/Documentation~/manual/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="random-test-helper">Random Test Helper</h1>
+
+<p><a href="https://github.com/nowsprinting/test-helper.random/actions/workflows/metacheck.yml"><img src="https://github.com/nowsprinting/test-helper.random/actions/workflows/metacheck.yml/badge.svg" alt="Meta file check"></a>
+<a href="https://github.com/nowsprinting/test-helper.random/actions/workflows/test.yml"><img src="https://github.com/nowsprinting/test-helper.random/actions/workflows/test.yml/badge.svg" alt="Test"></a>
+<a href="https://openupm.com/packages/com.nowsprinting.test-helper.random/"><img src="https://img.shields.io/npm/v/com.nowsprinting.test-helper.random?label=openupm&amp;registry_uri=https://package.openupm.com" alt="openupm"></a></p>
+<p>Wrapper and test stubs reference implementation for <code>UnityEngine.Random</code>.</p>
+<p>Required Unity 2019 LTS or later.</p>
+<h2 id="features">Features</h2>
+<h3 id="wrapper-class-for-unityenginerandom">Wrapper class for UnityEngine.Random</h3>
+<p><code>UnityEngine.Random</code> class provides static methods.
+You can inject test stub in your tests by replacing it with a <code>RandomImpl</code> instance.</p>
+<h2 id="installation">Installation</h2>
+<p>You can choose from two typical installation methods.</p>
+<h3 id="install-via-package-manager-window">Install via Package Manager window</h3>
+<ol>
+<li>Open the <strong>Package Manager</strong> tab in Project Settings window (<strong>Editor &gt; Project Settings</strong>)</li>
+<li>Click <strong>+</strong> button under the <strong>Scoped Registries</strong> and enter the following settings (figure 1.):
+<ol>
+<li><strong>Name:</strong> <code>package.openupm.com</code></li>
+<li><strong>URL:</strong> <code>https://package.openupm.com</code></li>
+<li><strong>Scope(s):</strong> <code>com.nowsprinting</code></li>
+</ol>
+</li>
+<li>Open the Package Manager window (<strong>Window &gt; Package Manager</strong>) and select <strong>My Registries</strong> in registries drop-down list (figure 2.)</li>
+<li>Click <strong>Install</strong> button on the <code>com.nowsprinting.test-helper.random</code> package</li>
+</ol>
+<p><strong>Figure 1.</strong> Package Manager tab in Project Settings window.</p>
+<p><img src="Documentation%7E/ProjectSettings_Dark.png#gh-dark-mode-only" alt="">
+<img src="Documentation%7E/ProjectSettings_Light.png#gh-light-mode-only" alt=""></p>
+<p><strong>Figure 2.</strong> Select registries drop-down list in Package Manager window.</p>
+<p><img src="Documentation%7E/PackageManager_Dark.png/#gh-dark-mode-only" alt="">
+<img src="Documentation%7E/PackageManager_Light.png/#gh-light-mode-only" alt=""></p>
+<h3 id="install-via-openupm-cli">Install via OpenUPM-CLI</h3>
+<p>If you installed <a href="https://github.com/openupm/openupm-cli">openupm-cli</a>, run the command below:</p>
+<pre><code class="lang-bash">openupm add com.nowsprinting.test-helper.random
+</code></pre>
+<h3 id="add-assembly-reference">Add assembly reference</h3>
+<ol>
+<li>Open your product and test assembly definition file (.asmdef) in <strong>Inspector</strong> window</li>
+<li>Add <strong>TestHelper.Random</strong> into <strong>Assembly Definition References</strong></li>
+</ol>
+<h2 id="license">License</h2>
+<p>MIT License</p>
+<h2 id="how-to-contribute">How to contribute</h2>
+<p>Open an issue or create a pull request.</p>
+<p>Be grateful if you could label the PR as <code>enhancement</code>, <code>bug</code>, <code>chore</code>, and <code>documentation</code>.
+See <a href=".github/pr-labeler.yml">PR Labeler settings</a> for automatically labeling from the branch name.</p>
+<h2 id="how-to-development">How to development</h2>
+<p>Add this repository as a submodule to the Packages/ directory in your project.</p>
+<pre><code class="lang-bash">git submodule add https://github.com/nowsprinting/test-helper.random.git Packages/com.nowsprinting.test-helper.random
+</code></pre>
+<p>Generate a temporary project and run tests on each Unity version from the command line.</p>
+<pre><code class="lang-bash">make create_project
+UNITY_VERSION=2019.4.40f1 make -k test
+</code></pre>
+<h2 id="release-workflow">Release workflow</h2>
+<p>Run <strong>Actions &gt; Create release pull request &gt; Run workflow</strong> and merge created pull request.
+(Or bump version in package.json on default branch)</p>
+<p>Then, Will do the release process automatically by <a href=".github/workflows/release.yml">Release</a> workflow.
+And after tagging, OpenUPM retrieves the tag and updates it.</p>
+<p>Do <strong>NOT</strong> manually operation the following operations:</p>
+<ul>
+<li>Create a release tag</li>
+<li>Publish draft releases</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/nowsprinting/test-helper.random/blob/master/Documentation~/manual/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made by <a href="https://github.com/nowsprinting" target="_blank">nowsprinting</a> using <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

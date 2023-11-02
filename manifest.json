@@ -1,0 +1,210 @@
+{
+  "sitemap": {
+    "baseUrl": "https://nowsprinting.github.io/test-helper.random/"
+  },
+  "source_base_path": "/home/runner/work/test-helper.random/test-helper.random/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.IRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.IRandom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.RandomExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.RandomExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.RandomExtensionsTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.RandomExtensionsTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.RandomImpl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.RandomImpl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.RandomImplTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.RandomImplTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.StubRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.StubRandom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.StubRandomTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.StubRandomTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "manual/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
