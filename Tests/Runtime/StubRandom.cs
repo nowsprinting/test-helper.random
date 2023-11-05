@@ -3,7 +3,6 @@
 
 using System;
 using NUnit.Framework;
-using UnityEngine;
 
 namespace TestHelper.Random
 {
@@ -66,52 +65,6 @@ namespace TestHelper.Random
 #endif
 
         public double NextDouble()
-        {
-            throw new NotImplementedException();
-        }
-
-        public float Range(float minInclusive, float maxInclusive)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int Range(int minInclusive, int maxExclusive) => Next(minInclusive, maxExclusive);
-
-        public int RandomRangeInt(int minInclusive, int maxExclusive) => Next(minInclusive, maxExclusive);
-
-        public float value()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Vector3 insideUnitSphere()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Vector2 insideUnitCircle()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Vector3 onUnitSphere()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Quaternion rotation()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Quaternion rotationUniform()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Color ColorHSV(float hueMin = 0, float hueMax = 1, float saturationMin = 0, float saturationMax = 1,
-            float valueMin = 0,
-            float valueMax = 1, float alphaMin = 1, float alphaMax = 1)
         {
             throw new NotImplementedException();
         }
