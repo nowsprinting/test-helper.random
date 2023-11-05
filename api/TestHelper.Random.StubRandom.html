@@ -91,7 +91,7 @@
 
   <h1 id="TestHelper_Random_StubRandom" data-uid="TestHelper.Random.StubRandom" class="text-break">
     Class StubRandom
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -162,6 +162,36 @@ Only override methods that return <code>int</code> values.</p>
   <div>
       <a class="xref" href="TestHelper.Random.RandomExtensions.html#TestHelper_Random_RandomExtensions_NextScreenPosition_TestHelper_Random_IRandom_">RandomExtensions.NextScreenPosition(IRandom)</a>
   </div>
+  <div>
+      <a class="xref" href="TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_ColorHSV_TestHelper_Random_IRandom_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_">RandomExtensionsUnity.ColorHSV(IRandom, float, float, float, float, float, float, float, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_RandomRangeInt_TestHelper_Random_IRandom_System_Int32_System_Int32_">RandomExtensionsUnity.RandomRangeInt(IRandom, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_Range_TestHelper_Random_IRandom_System_Int32_System_Int32_">RandomExtensionsUnity.Range(IRandom, int, int)</a>
+  </div>
+  <div>
+      <a class="xref" href="TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_Range_TestHelper_Random_IRandom_System_Single_System_Single_">RandomExtensionsUnity.Range(IRandom, float, float)</a>
+  </div>
+  <div>
+      <a class="xref" href="TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_insideUnitCircle_TestHelper_Random_IRandom_">RandomExtensionsUnity.insideUnitCircle(IRandom)</a>
+  </div>
+  <div>
+      <a class="xref" href="TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_insideUnitSphere_TestHelper_Random_IRandom_">RandomExtensionsUnity.insideUnitSphere(IRandom)</a>
+  </div>
+  <div>
+      <a class="xref" href="TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_onUnitSphere_TestHelper_Random_IRandom_">RandomExtensionsUnity.onUnitSphere(IRandom)</a>
+  </div>
+  <div>
+      <a class="xref" href="TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_rotation_TestHelper_Random_IRandom_">RandomExtensionsUnity.rotation(IRandom)</a>
+  </div>
+  <div>
+      <a class="xref" href="TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_rotationUniform_TestHelper_Random_IRandom_">RandomExtensionsUnity.rotationUniform(IRandom)</a>
+  </div>
+  <div>
+      <a class="xref" href="TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_value_TestHelper_Random_IRandom_">RandomExtensionsUnity.value(IRandom)</a>
+  </div>
   </dd></dl>
 
 
@@ -176,7 +206,7 @@ Only override methods that return <code>int</code> values.</p>
 
   <h3 id="TestHelper_Random_StubRandom__ctor_System_Int32___" data-uid="TestHelper.Random.StubRandom.#ctor(System.Int32[])">
   StubRandom(params int[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -207,71 +237,11 @@ Only override methods that return <code>int</code> values.</p>
 </h2>
 
 
-  <a id="TestHelper_Random_StubRandom_ColorHSV_" data-uid="TestHelper.Random.StubRandom.ColorHSV*"></a>
-
-  <h3 id="TestHelper_Random_StubRandom_ColorHSV_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="TestHelper.Random.StubRandom.ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
-  ColorHSV(float, float, float, float, float, float, float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L112"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Generates a random color from HSV and alpha ranges.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Color ColorHSV(float hueMin = 0, float hueMax = 1, float saturationMin = 0, float saturationMax = 1, float valueMin = 0, float valueMax = 1, float alphaMin = 1, float alphaMax = 1)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>hueMin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>Minimum hue [0..1].</p>
-</dd>
-    <dt><code>hueMax</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>Maximum hue [0..1].</p>
-</dd>
-    <dt><code>saturationMin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>Minimum saturation [0..1].</p>
-</dd>
-    <dt><code>saturationMax</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>Maximum saturation [0..1].</p>
-</dd>
-    <dt><code>valueMin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>Minimum value [0..1].</p>
-</dd>
-    <dt><code>valueMax</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>Maximum value [0..1].</p>
-</dd>
-    <dt><code>alphaMin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>Minimum alpha [0..1].</p>
-</dd>
-    <dt><code>alphaMax</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>Maximum alpha [0..1].</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Color</span></dt>
-    <dd><p>A random color with HSV and alpha values in the (inclusive) input ranges. Values for each component are derived via linear interpolation of value.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
   <a id="TestHelper_Random_StubRandom_Next_" data-uid="TestHelper.Random.StubRandom.Next*"></a>
 
   <h3 id="TestHelper_Random_StubRandom_Next" data-uid="TestHelper.Random.StubRandom.Next">
   Next()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a non-negative random integer.</p>
@@ -304,7 +274,7 @@ Only override methods that return <code>int</code> values.</p>
 
   <h3 id="TestHelper_Random_StubRandom_Next_System_Int32_" data-uid="TestHelper.Random.StubRandom.Next(System.Int32)">
   Next(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a non-negative random integer that is less than the specified maximum.</p>
@@ -343,7 +313,7 @@ Only override methods that return <code>int</code> values.</p>
 
   <h3 id="TestHelper_Random_StubRandom_Next_System_Int32_System_Int32_" data-uid="TestHelper.Random.StubRandom.Next(System.Int32,System.Int32)">
   Next(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random integer that is within a specified range.</p>
@@ -385,7 +355,7 @@ Only override methods that return <code>int</code> values.</p>
 
   <h3 id="TestHelper_Random_StubRandom_NextBytes_System_Byte___" data-uid="TestHelper.Random.StubRandom.NextBytes(System.Byte[])">
   NextBytes(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fills the elements of a specified array of bytes with random numbers.</p>
@@ -418,7 +388,7 @@ Only override methods that return <code>int</code> values.</p>
 
   <h3 id="TestHelper_Random_StubRandom_NextDouble" data-uid="TestHelper.Random.StubRandom.NextDouble">
   NextDouble()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L67"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random floating-point number between 0.0 and 1.0.</p>
@@ -447,128 +417,11 @@ Only override methods that return <code>int</code> values.</p>
 
 
 
-  <a id="TestHelper_Random_StubRandom_RandomRangeInt_" data-uid="TestHelper.Random.StubRandom.RandomRangeInt*"></a>
-
-  <h3 id="TestHelper_Random_StubRandom_RandomRangeInt_System_Int32_System_Int32_" data-uid="TestHelper.Random.StubRandom.RandomRangeInt(System.Int32,System.Int32)">
-  RandomRangeInt(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L80"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Return a random int within [minInclusive..maxExclusive) (Read Only).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int RandomRangeInt(int minInclusive, int maxExclusive)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>minInclusive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>maxExclusive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="TestHelper_Random_StubRandom_Range_" data-uid="TestHelper.Random.StubRandom.Range*"></a>
-
-  <h3 id="TestHelper_Random_StubRandom_Range_System_Int32_System_Int32_" data-uid="TestHelper.Random.StubRandom.Range(System.Int32,System.Int32)">
-  Range(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L78"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Return a random int within [minInclusive..maxExclusive) (Read Only).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Range(int minInclusive, int maxExclusive)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>minInclusive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-    <dt><code>maxExclusive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="TestHelper_Random_StubRandom_Range_" data-uid="TestHelper.Random.StubRandom.Range*"></a>
-
-  <h3 id="TestHelper_Random_StubRandom_Range_System_Single_System_Single_" data-uid="TestHelper.Random.StubRandom.Range(System.Single,System.Single)">
-  Range(float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L73"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns a random float within [minInclusive..maxInclusive] (range is inclusive).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Range(float minInclusive, float maxInclusive)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>minInclusive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-    <dt><code>maxInclusive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
   <a id="TestHelper_Random_StubRandom_ToString_" data-uid="TestHelper.Random.StubRandom.ToString*"></a>
 
   <h3 id="TestHelper_Random_StubRandom_ToString" data-uid="TestHelper.Random.StubRandom.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
@@ -585,198 +438,6 @@ Only override methods that return <code>int</code> values.</p>
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>A string that represents the current object.</p>
 </dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="TestHelper_Random_StubRandom_insideUnitCircle_" data-uid="TestHelper.Random.StubRandom.insideUnitCircle*"></a>
-
-  <h3 id="TestHelper_Random_StubRandom_insideUnitCircle" data-uid="TestHelper.Random.StubRandom.insideUnitCircle">
-  insideUnitCircle()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L92"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns a random point inside or on a circle with radius 1.0 (Read Only).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector2 insideUnitCircle()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Vector2</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="TestHelper_Random_StubRandom_insideUnitSphere_" data-uid="TestHelper.Random.StubRandom.insideUnitSphere*"></a>
-
-  <h3 id="TestHelper_Random_StubRandom_insideUnitSphere" data-uid="TestHelper.Random.StubRandom.insideUnitSphere">
-  insideUnitSphere()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L87"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns a random point inside or on a sphere with radius 1.0 (Read Only).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 insideUnitSphere()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Vector3</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="TestHelper_Random_StubRandom_onUnitSphere_" data-uid="TestHelper.Random.StubRandom.onUnitSphere*"></a>
-
-  <h3 id="TestHelper_Random_StubRandom_onUnitSphere" data-uid="TestHelper.Random.StubRandom.onUnitSphere">
-  onUnitSphere()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L97"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns a random point on the surface of a sphere with radius 1.0 (Read Only).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 onUnitSphere()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Vector3</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="TestHelper_Random_StubRandom_rotation_" data-uid="TestHelper.Random.StubRandom.rotation*"></a>
-
-  <h3 id="TestHelper_Random_StubRandom_rotation" data-uid="TestHelper.Random.StubRandom.rotation">
-  rotation()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L102"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns a random rotation (Read Only).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Quaternion rotation()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Quaternion</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="TestHelper_Random_StubRandom_rotationUniform_" data-uid="TestHelper.Random.StubRandom.rotationUniform*"></a>
-
-  <h3 id="TestHelper_Random_StubRandom_rotationUniform" data-uid="TestHelper.Random.StubRandom.rotationUniform">
-  rotationUniform()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L107"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns a random rotation with uniform distribution (Read Only).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Quaternion rotationUniform()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Quaternion</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="TestHelper_Random_StubRandom_value_" data-uid="TestHelper.Random.StubRandom.value*"></a>
-
-  <h3 id="TestHelper_Random_StubRandom_value" data-uid="TestHelper.Random.StubRandom.value">
-  value()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Tests/Runtime/StubRandom.cs/#L82"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Returns a random float within [0.0..1.0] (range is inclusive) (Read Only).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float value()</code></pre>
-  </div>
-
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
   </dl>
 
 

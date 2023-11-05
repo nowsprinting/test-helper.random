@@ -89,12 +89,17 @@
 <p><a href="https://github.com/nowsprinting/test-helper.random/actions/workflows/metacheck.yml"><img src="https://github.com/nowsprinting/test-helper.random/actions/workflows/metacheck.yml/badge.svg" alt="Meta file check"></a>
 <a href="https://github.com/nowsprinting/test-helper.random/actions/workflows/test.yml"><img src="https://github.com/nowsprinting/test-helper.random/actions/workflows/test.yml/badge.svg" alt="Test"></a>
 <a href="https://openupm.com/packages/com.nowsprinting.test-helper.random/"><img src="https://img.shields.io/npm/v/com.nowsprinting.test-helper.random?label=openupm&amp;registry_uri=https://package.openupm.com" alt="openupm"></a></p>
-<p>Wrapper and test stubs reference implementation for <code>UnityEngine.Random</code>.</p>
+<p>Wrapper and test stubs reference implementation for Random class.</p>
 <p>Required Unity 2019 LTS or later.</p>
 <h2 id="features">Features</h2>
-<h3 id="wrapper-class-for-unityenginerandom">Wrapper class for UnityEngine.Random</h3>
-<p><code>UnityEngine.Random</code> class provides static methods.
-You can inject test stub in your tests by replacing it with a <code>RandomImpl</code> instance.</p>
+<h3 id="wrapper-interface-for-systemrandom">Wrapper interface for System.Random</h3>
+<p><code>IRandom</code> interface is a wrapper interface for <code>System.Random</code> class.
+You can inject a test stub in your tests by replacing it with a <code>RandomImpl</code> instance.</p>
+<h3 id="extensions-similar-unityenginerandom">Extensions similar UnityEngine.Random</h3>
+<p><code>RandomExtensionsUnity</code> provides extension methods similar to <code>UnityEngine.Random</code> class.
+<strong>(TBD)</strong></p>
+<h3 id="extensions-useful-for-testing">Extensions useful for testing</h3>
+<p><code>RandomExtensions</code> provides extension methods useful for testing.</p>
 <h2 id="installation">Installation</h2>
 <p>You can choose from two typical installation methods.</p>
 <h3 id="install-via-package-manager-window">Install via Package Manager window</h3>
