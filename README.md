@@ -21,9 +21,10 @@ You can inject a test stub in your tests by replacing it with a `RandomImpl` ins
 ### Extensions similar UnityEngine.Random
 
 `RandomExtensionsUnity` provides extension methods similar to `UnityEngine.Random` class.
+**(TBD)**
 
 
-### Extension methods useful for testing
+### Extensions useful for testing
 
 `RandomExtensions` provides extension methods useful for testing.
 
