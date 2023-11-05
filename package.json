@@ -1,12 +1,11 @@
 {
   "name": "com.nowsprinting.test-helper.random",
   "description": "Wrapper and test stubs reference implementation for Random class.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Koji Hasegawa <hasegawa@hubsys.co.jp> (https://github.com/nowsprinting)",
   "category": "Unity Test Framework",
   "changelogUrl": "https://github.com/nowsprinting/test-helper.random/releases",
-  "dependencies": {
-  },
+  "dependencies": {},
   "displayName": "Random Test Helper",
   "documentationUrl": "https://github.com/nowsprinting/test-helper.random/blob/master/README.md",
   "files": [
