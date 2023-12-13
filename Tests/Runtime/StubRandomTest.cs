@@ -2,6 +2,7 @@
 // This software is released under the MIT License.
 
 using NUnit.Framework;
+using TestHelper.Random.TestDoubles;
 
 namespace TestHelper.Random
 {
@@ -11,19 +12,11 @@ namespace TestHelper.Random
         [Test]
         public void Next_ReturnSpecifiedValues()
         {
-            var sut = new StubRandom(1, 2, 3);
+            IRandom sut = new StubRandom(2, 3, 5);
 
-            Assert.That(sut.Next(), Is.EqualTo(1), "No argument");
-            Assert.That(sut.Next(0), Is.EqualTo(2), "With max value");
-            Assert.That(sut.Next(0, 0), Is.EqualTo(3), "With range");
-        }
-
-        [Test]
-        public void ToString_ReturnName()
-        {
-            var sut = new StubRandom(1, 2, 3);
-
-            Assert.That(sut.ToString(), Is.EqualTo(sut.GetType().FullName));
+            Assert.That(sut.Next(), Is.EqualTo(2), "1st value");
+            Assert.That(sut.Next(), Is.EqualTo(3), "2nd value");
+            Assert.That(sut.Next(), Is.EqualTo(5), "3rd value");
         }
     }
 }

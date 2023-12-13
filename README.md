@@ -12,16 +12,60 @@ Required Unity 2019 LTS or later.
 
 ## Features
 
-### Wrapper interface for System.Random
+### Wrapper interface for `System.Random` and `UnityEngine.Random`
 
-`IRandom` interface is a wrapper interface for `System.Random` class.
-You can inject a test stub in your tests by replacing it with a `RandomImpl` instance.
+`IRandom` interface is a wrapper interface for `System.Random` and `UnityEngine.Random` class.
+You can inject a test stub in your tests by replacing it with a `RandomWrapper` instance.
 
+Usage:
 
-### Extensions similar UnityEngine.Random
+1.Insert the code below into your product code, so replace `UnityEngine.Random` to `TestHelper.Random.RandomWrapper` instance.
 
-`RandomExtensionsUnity` provides extension methods similar to `UnityEngine.Random` class.
-**(TBD)**
+```csharp
+internal IRandom Random { private get; set; } = new RandomWrapper();
+```
+
+> [!NOTE]  
+> `RandomWrapper` also works at runtime, but if you want to strip the extra assembly (`TestHelper.Input`) from your IL2CPP build, you can use the `#if UNITY_INCLUDE_TESTS` directive.
+
+2.Create test stub in your test.
+
+```csharp
+public class StubRandom : RandomWrapper
+{
+    private readonly float[] _returnValues;
+    private int _returnValueIndex;
+
+    public StubRandom(params float[] returnValues)
+    {
+        Assert.That(returnValues, Is.Not.Empty);
+        _returnValues = returnValues;
+        _returnValueIndex = 0;
+    }
+
+    public override float value
+    {
+        get
+        {
+            return _returnValues[_returnValueIndex++];
+        }
+    }
+}
+```
+
+3.Write test using test stub.
+
+```csharp
+[Test]
+public void Value_ReturnSpecifiedValues()
+{
+    IRandom sut = new StubRandom(0.2f, 0.3f, 0.5f);
+
+    Assert.That(sut.value, Is.EqualTo(0.2f), "1st value");
+    Assert.That(sut.value, Is.EqualTo(0.3f), "2nd value");
+    Assert.That(sut.value, Is.EqualTo(0.5f), "3rd value");
+}
+```
 
 
 ### Extensions useful for testing
