@@ -45,16 +45,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TestHelper.Random.RandomExtensionsUnity.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/TestHelper.Random.RandomExtensionsUnity.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/TestHelper.Random.RandomImpl.yml",
       "output": {
         ".html": {
@@ -65,20 +55,40 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TestHelper.Random.RandomImplTest.yml",
+      "source_relative_path": "api/TestHelper.Random.RandomWrapper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/TestHelper.Random.RandomImplTest.html"
+          "relative_path": "api/TestHelper.Random.RandomWrapper.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/TestHelper.Random.StubRandom.yml",
+      "source_relative_path": "api/TestHelper.Random.RandomWrapperTest.yml",
       "output": {
         ".html": {
-          "relative_path": "api/TestHelper.Random.StubRandom.html"
+          "relative_path": "api/TestHelper.Random.RandomWrapperTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.SpyRandomTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.SpyRandomTest.html"
         }
       },
       "version": ""
@@ -89,6 +99,36 @@
       "output": {
         ".html": {
           "relative_path": "api/TestHelper.Random.StubRandomTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.TestDoubles.SpyRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.TestDoubles.SpyRandom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.TestDoubles.StubRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.TestDoubles.StubRandom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TestHelper.Random.TestDoubles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TestHelper.Random.TestDoubles.html"
         }
       },
       "version": ""

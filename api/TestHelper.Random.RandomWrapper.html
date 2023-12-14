@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IRandom
+      <title>Class RandomWrapper
  | Random Test Helper | 0.2.0 </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IRandom
+      <meta name="title" content="Class RandomWrapper
  | Random Test Helper | 0.2.0 ">
       
       <link rel="icon" href="../favicon.ico">
@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       <meta name="docfx:disablenewtab" content="true">
       
-      <meta name="docfx:docurl" content="https://github.com/nowsprinting/test-helper.random/new/master/apiSpec/new?filename=TestHelper_Random_IRandom.md&amp;value=---%0Auid%3A%20TestHelper.Random.IRandom%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/nowsprinting/test-helper.random/new/master/apiSpec/new?filename=TestHelper_Random_RandomWrapper.md&amp;value=---%0Auid%3A%20TestHelper.Random.RandomWrapper%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,13 +85,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="TestHelper.Random.IRandom">
+        <article data-uid="TestHelper.Random.RandomWrapper">
 
 
 
-  <h1 id="TestHelper_Random_IRandom" data-uid="TestHelper.Random.IRandom" class="text-break">
-    Interface IRandom
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h1 id="TestHelper_Random_RandomWrapper" data-uid="TestHelper.Random.RandomWrapper" class="text-break">
+    Class RandomWrapper
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -99,20 +99,62 @@
   
   </div>
 
-  <div class="markdown summary"><p>Random number generator interface similar to <code>System.Random</code> and <code>UnityEngine.Random</code> class.</p>
+  <div class="markdown summary"><p>Wrapper implementation for <code>IRandom</code> Using <code>System.Random</code> instance.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IRandom</code></pre>
+    <pre><code class="lang-csharp hljs">public class RandomWrapper : IRandom</code></pre>
   </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RandomWrapper</span></div>
+    </dd>
+  </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="TestHelper.Random.IRandom.html">IRandom</a></div>
+    </dd>
+  </dl>
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="TestHelper.Random.TestDoubles.SpyRandom.html">SpyRandom</a></div>
+      <div><a class="xref" href="TestHelper.Random.TestDoubles.StubRandom.html">StubRandom</a></div>
+    </dd>
+  </dl>
 
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
 
   <dl class="typelist extensionMethods">
     <dt>Extension Methods</dt>
@@ -132,15 +174,81 @@
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="TestHelper_Random_RandomWrapper__ctor_" data-uid="TestHelper.Random.RandomWrapper.#ctor*"></a>
+
+  <h3 id="TestHelper_Random_RandomWrapper__ctor" data-uid="TestHelper.Random.RandomWrapper.#ctor">
+  RandomWrapper()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <code>RandomWrapper</code> class,
+using <code>Environment.TickCount</code> to seed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RandomWrapper()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestHelper_Random_RandomWrapper__ctor_" data-uid="TestHelper.Random.RandomWrapper.#ctor*"></a>
+
+  <h3 id="TestHelper_Random_RandomWrapper__ctor_System_Int32_" data-uid="TestHelper.Random.RandomWrapper.#ctor(System.Int32)">
+  RandomWrapper(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <code>RandomWrapper</code> class,
+using the specified seed value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RandomWrapper(int seed)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>seed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A number used to calculate a starting value for the pseudo-random number sequence. If a negative number is specified, the absolute value of the number is used.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
 
 
-  <a id="TestHelper_Random_IRandom_insideUnitCircle_" data-uid="TestHelper.Random.IRandom.insideUnitCircle*"></a>
+  <a id="TestHelper_Random_RandomWrapper_insideUnitCircle_" data-uid="TestHelper.Random.RandomWrapper.insideUnitCircle*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_insideUnitCircle" data-uid="TestHelper.Random.IRandom.insideUnitCircle">
+  <h3 id="TestHelper_Random_RandomWrapper_insideUnitCircle" data-uid="TestHelper.Random.RandomWrapper.insideUnitCircle">
   insideUnitCircle
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random point inside or on a circle with radius 1.0 (Read Only).</p>
@@ -148,7 +256,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Vector2 insideUnitCircle { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Vector2 insideUnitCircle { get; }</code></pre>
   </div>
 
 
@@ -168,11 +276,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_insideUnitSphere_" data-uid="TestHelper.Random.IRandom.insideUnitSphere*"></a>
+  <a id="TestHelper_Random_RandomWrapper_insideUnitSphere_" data-uid="TestHelper.Random.RandomWrapper.insideUnitSphere*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_insideUnitSphere" data-uid="TestHelper.Random.IRandom.insideUnitSphere">
+  <h3 id="TestHelper_Random_RandomWrapper_insideUnitSphere" data-uid="TestHelper.Random.RandomWrapper.insideUnitSphere">
   insideUnitSphere
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L118"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random point inside or on a sphere with radius 1.0 (Read Only).</p>
@@ -180,7 +288,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Vector3 insideUnitSphere { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Vector3 insideUnitSphere { get; }</code></pre>
   </div>
 
 
@@ -200,11 +308,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_onUnitSphere_" data-uid="TestHelper.Random.IRandom.onUnitSphere*"></a>
+  <a id="TestHelper_Random_RandomWrapper_onUnitSphere_" data-uid="TestHelper.Random.RandomWrapper.onUnitSphere*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_onUnitSphere" data-uid="TestHelper.Random.IRandom.onUnitSphere">
+  <h3 id="TestHelper_Random_RandomWrapper_onUnitSphere" data-uid="TestHelper.Random.RandomWrapper.onUnitSphere">
   onUnitSphere
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L136"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random point on the surface of a sphere with radius 1.0 (Read Only).</p>
@@ -212,7 +320,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Vector3 onUnitSphere { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Vector3 onUnitSphere { get; }</code></pre>
   </div>
 
 
@@ -232,11 +340,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_rotation_" data-uid="TestHelper.Random.IRandom.rotation*"></a>
+  <a id="TestHelper_Random_RandomWrapper_rotation_" data-uid="TestHelper.Random.RandomWrapper.rotation*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_rotation" data-uid="TestHelper.Random.IRandom.rotation">
+  <h3 id="TestHelper_Random_RandomWrapper_rotation" data-uid="TestHelper.Random.RandomWrapper.rotation">
   rotation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L145"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random rotation (Read Only).</p>
@@ -244,7 +352,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Quaternion rotation { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Quaternion rotation { get; }</code></pre>
   </div>
 
 
@@ -264,11 +372,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_rotationUniform_" data-uid="TestHelper.Random.IRandom.rotationUniform*"></a>
+  <a id="TestHelper_Random_RandomWrapper_rotationUniform_" data-uid="TestHelper.Random.RandomWrapper.rotationUniform*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_rotationUniform" data-uid="TestHelper.Random.IRandom.rotationUniform">
+  <h3 id="TestHelper_Random_RandomWrapper_rotationUniform" data-uid="TestHelper.Random.RandomWrapper.rotationUniform">
   rotationUniform
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random rotation with uniform distribution (Read Only).</p>
@@ -276,7 +384,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Quaternion rotationUniform { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Quaternion rotationUniform { get; }</code></pre>
   </div>
 
 
@@ -296,11 +404,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_state_" data-uid="TestHelper.Random.IRandom.state*"></a>
+  <a id="TestHelper_Random_RandomWrapper_state_" data-uid="TestHelper.Random.RandomWrapper.state*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_state" data-uid="TestHelper.Random.IRandom.state">
+  <h3 id="TestHelper_Random_RandomWrapper_state" data-uid="TestHelper.Random.RandomWrapper.state">
   state
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L94"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets or sets the full internal state of the random number generator.</p>
@@ -308,7 +416,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">UnityEngine.Random.State state { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual UnityEngine.Random.State state { get; set; }</code></pre>
   </div>
 
 
@@ -328,11 +436,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_value_" data-uid="TestHelper.Random.IRandom.value*"></a>
+  <a id="TestHelper_Random_RandomWrapper_value_" data-uid="TestHelper.Random.RandomWrapper.value*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_value" data-uid="TestHelper.Random.IRandom.value">
+  <h3 id="TestHelper_Random_RandomWrapper_value" data-uid="TestHelper.Random.RandomWrapper.value">
   value
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random float within [0.0..1.0] (range is inclusive) (Read Only).</p>
@@ -340,7 +448,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">float value { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual float value { get; }</code></pre>
   </div>
 
 
@@ -364,11 +472,11 @@
 </h2>
 
 
-  <a id="TestHelper_Random_IRandom_ColorHSV_" data-uid="TestHelper.Random.IRandom.ColorHSV*"></a>
+  <a id="TestHelper_Random_RandomWrapper_ColorHSV_" data-uid="TestHelper.Random.RandomWrapper.ColorHSV*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_ColorHSV_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="TestHelper.Random.IRandom.ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+  <h3 id="TestHelper_Random_RandomWrapper_ColorHSV_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="TestHelper.Random.RandomWrapper.ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
   ColorHSV(float, float, float, float, float, float, float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L163"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Generates a random color from HSV and alpha ranges.</p>
@@ -376,7 +484,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Color ColorHSV(float hueMin = 0, float hueMax = 1, float saturationMin = 0, float saturationMax = 1, float valueMin = 0, float valueMax = 1, float alphaMin = 1, float alphaMax = 1)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual Color ColorHSV(float hueMin, float hueMax, float saturationMin, float saturationMax, float valueMin, float valueMax, float alphaMin, float alphaMax)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -424,11 +532,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_InitState_" data-uid="TestHelper.Random.IRandom.InitState*"></a>
+  <a id="TestHelper_Random_RandomWrapper_InitState_" data-uid="TestHelper.Random.RandomWrapper.InitState*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_InitState_System_Int32_" data-uid="TestHelper.Random.IRandom.InitState(System.Int32)">
+  <h3 id="TestHelper_Random_RandomWrapper_InitState_System_Int32_" data-uid="TestHelper.Random.RandomWrapper.InitState(System.Int32)">
   InitState(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes the random number generator state with a seed.</p>
@@ -436,7 +544,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void InitState(int seed)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void InitState(int seed)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -457,11 +565,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_Next_" data-uid="TestHelper.Random.IRandom.Next*"></a>
+  <a id="TestHelper_Random_RandomWrapper_Next_" data-uid="TestHelper.Random.RandomWrapper.Next*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_Next" data-uid="TestHelper.Random.IRandom.Next">
+  <h3 id="TestHelper_Random_RandomWrapper_Next" data-uid="TestHelper.Random.RandomWrapper.Next">
   Next()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L44"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a non-negative random integer.</p>
@@ -469,7 +577,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int Next()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual int Next()</code></pre>
   </div>
 
 
@@ -490,11 +598,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_Next_" data-uid="TestHelper.Random.IRandom.Next*"></a>
+  <a id="TestHelper_Random_RandomWrapper_Next_" data-uid="TestHelper.Random.RandomWrapper.Next*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_Next_System_Int32_" data-uid="TestHelper.Random.IRandom.Next(System.Int32)">
+  <h3 id="TestHelper_Random_RandomWrapper_Next_System_Int32_" data-uid="TestHelper.Random.RandomWrapper.Next(System.Int32)">
   Next(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a non-negative random integer that is less than the specified maximum.</p>
@@ -502,7 +610,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int Next(int maxValue)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual int Next(int maxValue)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -529,11 +637,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_Next_" data-uid="TestHelper.Random.IRandom.Next*"></a>
+  <a id="TestHelper_Random_RandomWrapper_Next_" data-uid="TestHelper.Random.RandomWrapper.Next*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_Next_System_Int32_System_Int32_" data-uid="TestHelper.Random.IRandom.Next(System.Int32,System.Int32)">
+  <h3 id="TestHelper_Random_RandomWrapper_Next_System_Int32_System_Int32_" data-uid="TestHelper.Random.RandomWrapper.Next(System.Int32,System.Int32)">
   Next(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random integer that is within a specified range.</p>
@@ -541,7 +649,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int Next(int minValue, int maxValue)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual int Next(int minValue, int maxValue)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -571,11 +679,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_NextBytes_" data-uid="TestHelper.Random.IRandom.NextBytes*"></a>
+  <a id="TestHelper_Random_RandomWrapper_NextBytes_" data-uid="TestHelper.Random.RandomWrapper.NextBytes*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_NextBytes_System_Byte___" data-uid="TestHelper.Random.IRandom.NextBytes(System.Byte[])">
+  <h3 id="TestHelper_Random_RandomWrapper_NextBytes_System_Byte___" data-uid="TestHelper.Random.RandomWrapper.NextBytes(System.Byte[])">
   NextBytes(byte[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fills the elements of a specified array of bytes with random numbers.</p>
@@ -583,7 +691,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void NextBytes(byte[] buffer)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void NextBytes(byte[] buffer)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -604,11 +712,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_NextDouble_" data-uid="TestHelper.Random.IRandom.NextDouble*"></a>
+  <a id="TestHelper_Random_RandomWrapper_NextDouble_" data-uid="TestHelper.Random.RandomWrapper.NextDouble*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_NextDouble" data-uid="TestHelper.Random.IRandom.NextDouble">
+  <h3 id="TestHelper_Random_RandomWrapper_NextDouble" data-uid="TestHelper.Random.RandomWrapper.NextDouble">
   NextDouble()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random floating-point number between 0.0 and 1.0.</p>
@@ -616,7 +724,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">double NextDouble()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual double NextDouble()</code></pre>
   </div>
 
 
@@ -637,11 +745,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_Range_" data-uid="TestHelper.Random.IRandom.Range*"></a>
+  <a id="TestHelper_Random_RandomWrapper_Range_" data-uid="TestHelper.Random.RandomWrapper.Range*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_Range_System_Int32_System_Int32_" data-uid="TestHelper.Random.IRandom.Range(System.Int32,System.Int32)">
+  <h3 id="TestHelper_Random_RandomWrapper_Range_System_Int32_System_Int32_" data-uid="TestHelper.Random.RandomWrapper.Range(System.Int32,System.Int32)">
   Range(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L103"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Return a random int within [minInclusive..maxExclusive) (Read Only).</p>
@@ -649,7 +757,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">int Range(int minInclusive, int maxExclusive)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual int Range(int minInclusive, int maxExclusive)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -676,11 +784,11 @@
 
 
 
-  <a id="TestHelper_Random_IRandom_Range_" data-uid="TestHelper.Random.IRandom.Range*"></a>
+  <a id="TestHelper_Random_RandomWrapper_Range_" data-uid="TestHelper.Random.RandomWrapper.Range*"></a>
 
-  <h3 id="TestHelper_Random_IRandom_Range_System_Single_System_Single_" data-uid="TestHelper.Random.IRandom.Range(System.Single,System.Single)">
+  <h3 id="TestHelper_Random_RandomWrapper_Range_System_Single_System_Single_" data-uid="TestHelper.Random.RandomWrapper.Range(System.Single,System.Single)">
   Range(float, float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/IRandom.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L97"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns a random float within [minInclusive..maxInclusive] (range is inclusive).</p>
@@ -688,7 +796,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">float Range(float minInclusive, float maxInclusive)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual float Range(float minInclusive, float maxInclusive)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -703,6 +811,39 @@
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="TestHelper_Random_RandomWrapper_ToString_" data-uid="TestHelper.Random.RandomWrapper.ToString*"></a>
+
+  <h3 id="TestHelper_Random_RandomWrapper_ToString" data-uid="TestHelper.Random.RandomWrapper.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/nowsprinting/test-helper.random/blob/master/Runtime/RandomWrapper.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
   </dl>
 
 

@@ -92,12 +92,50 @@
 <p>Wrapper and test stubs reference implementation for Random class.</p>
 <p>Required Unity 2019 LTS or later.</p>
 <h2 id="features">Features</h2>
-<h3 id="wrapper-interface-for-systemrandom">Wrapper interface for System.Random</h3>
-<p><code>IRandom</code> interface is a wrapper interface for <code>System.Random</code> class.
-You can inject a test stub in your tests by replacing it with a <code>RandomImpl</code> instance.</p>
-<h3 id="extensions-similar-unityenginerandom">Extensions similar UnityEngine.Random</h3>
-<p><code>RandomExtensionsUnity</code> provides extension methods similar to <code>UnityEngine.Random</code> class.
-<strong>(TBD)</strong></p>
+<h3 id="wrapper-interface-for-systemrandom-and-unityenginerandom">Wrapper interface for <code>System.Random</code> and <code>UnityEngine.Random</code></h3>
+<p><code>IRandom</code> interface is a wrapper interface for <code>System.Random</code> and <code>UnityEngine.Random</code> class.
+You can inject a test stub in your tests by replacing it with a <code>RandomWrapper</code> instance.</p>
+<p>Usage:</p>
+<p>1.Insert the code below into your product code, so replace <code>UnityEngine.Random</code> to <code>TestHelper.Random.RandomWrapper</code> instance.</p>
+<pre><code class="lang-csharp">internal IRandom Random { private get; set; } = new RandomWrapper();
+</code></pre>
+<div class="NOTE">
+<h5>Note</h5>
+<p><code>RandomWrapper</code> also works at runtime, but if you want to strip the extra assembly (<code>TestHelper.Input</code>) from your IL2CPP build, you can use the <code>#if UNITY_INCLUDE_TESTS</code> directive.</p>
+</div>
+<p>2.Create test stub in your test.</p>
+<pre><code class="lang-csharp">public class StubRandom : RandomWrapper
+{
+    private readonly float[] _returnValues;
+    private int _returnValueIndex;
+
+    public StubRandom(params float[] returnValues)
+    {
+        Assert.That(returnValues, Is.Not.Empty);
+        _returnValues = returnValues;
+        _returnValueIndex = 0;
+    }
+
+    public override float value
+    {
+        get
+        {
+            return _returnValues[_returnValueIndex++];
+        }
+    }
+}
+</code></pre>
+<p>3.Write test using test stub.</p>
+<pre><code class="lang-csharp">[Test]
+public void Value_ReturnSpecifiedValues()
+{
+    IRandom sut = new StubRandom(0.2f, 0.3f, 0.5f);
+
+    Assert.That(sut.value, Is.EqualTo(0.2f), &quot;1st value&quot;);
+    Assert.That(sut.value, Is.EqualTo(0.3f), &quot;2nd value&quot;);
+    Assert.That(sut.value, Is.EqualTo(0.5f), &quot;3rd value&quot;);
+}
+</code></pre>
 <h3 id="extensions-useful-for-testing">Extensions useful for testing</h3>
 <p><code>RandomExtensions</code> provides extension methods useful for testing.</p>
 <h2 id="installation">Installation</h2>

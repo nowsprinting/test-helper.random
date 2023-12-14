@@ -13,6 +13,38 @@ references:
   commentId: T:TestHelper.Random.IRandom
   fullName: TestHelper.Random.IRandom
   nameWithType: IRandom
+- uid: TestHelper.Random.IRandom.ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name: ColorHSV(float, float, float, float, float, float, float, float)
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_ColorHSV_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:TestHelper.Random.IRandom.ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name.vb: ColorHSV(Single, Single, Single, Single, Single, Single, Single, Single)
+  fullName: TestHelper.Random.IRandom.ColorHSV(float, float, float, float, float, float, float, float)
+  fullName.vb: TestHelper.Random.IRandom.ColorHSV(Single, Single, Single, Single, Single, Single, Single, Single)
+  nameWithType: IRandom.ColorHSV(float, float, float, float, float, float, float, float)
+  nameWithType.vb: IRandom.ColorHSV(Single, Single, Single, Single, Single, Single, Single, Single)
+- uid: TestHelper.Random.IRandom.ColorHSV*
+  name: ColorHSV
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_ColorHSV_
+  commentId: Overload:TestHelper.Random.IRandom.ColorHSV
+  isSpec: "True"
+  fullName: TestHelper.Random.IRandom.ColorHSV
+  nameWithType: IRandom.ColorHSV
+- uid: TestHelper.Random.IRandom.InitState(System.Int32)
+  name: InitState(int)
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_InitState_System_Int32_
+  commentId: M:TestHelper.Random.IRandom.InitState(System.Int32)
+  name.vb: InitState(Integer)
+  fullName: TestHelper.Random.IRandom.InitState(int)
+  fullName.vb: TestHelper.Random.IRandom.InitState(Integer)
+  nameWithType: IRandom.InitState(int)
+  nameWithType.vb: IRandom.InitState(Integer)
+- uid: TestHelper.Random.IRandom.InitState*
+  name: InitState
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_InitState_
+  commentId: Overload:TestHelper.Random.IRandom.InitState
+  isSpec: "True"
+  fullName: TestHelper.Random.IRandom.InitState
+  nameWithType: IRandom.InitState
 - uid: TestHelper.Random.IRandom.Next
   name: Next()
   href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_Next
@@ -73,6 +105,122 @@ references:
   isSpec: "True"
   fullName: TestHelper.Random.IRandom.NextDouble
   nameWithType: IRandom.NextDouble
+- uid: TestHelper.Random.IRandom.Range(System.Int32,System.Int32)
+  name: Range(int, int)
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_Range_System_Int32_System_Int32_
+  commentId: M:TestHelper.Random.IRandom.Range(System.Int32,System.Int32)
+  name.vb: Range(Integer, Integer)
+  fullName: TestHelper.Random.IRandom.Range(int, int)
+  fullName.vb: TestHelper.Random.IRandom.Range(Integer, Integer)
+  nameWithType: IRandom.Range(int, int)
+  nameWithType.vb: IRandom.Range(Integer, Integer)
+- uid: TestHelper.Random.IRandom.Range(System.Single,System.Single)
+  name: Range(float, float)
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_Range_System_Single_System_Single_
+  commentId: M:TestHelper.Random.IRandom.Range(System.Single,System.Single)
+  name.vb: Range(Single, Single)
+  fullName: TestHelper.Random.IRandom.Range(float, float)
+  fullName.vb: TestHelper.Random.IRandom.Range(Single, Single)
+  nameWithType: IRandom.Range(float, float)
+  nameWithType.vb: IRandom.Range(Single, Single)
+- uid: TestHelper.Random.IRandom.Range*
+  name: Range
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_Range_
+  commentId: Overload:TestHelper.Random.IRandom.Range
+  isSpec: "True"
+  fullName: TestHelper.Random.IRandom.Range
+  nameWithType: IRandom.Range
+- uid: TestHelper.Random.IRandom.insideUnitCircle
+  name: insideUnitCircle
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_insideUnitCircle
+  commentId: P:TestHelper.Random.IRandom.insideUnitCircle
+  fullName: TestHelper.Random.IRandom.insideUnitCircle
+  nameWithType: IRandom.insideUnitCircle
+- uid: TestHelper.Random.IRandom.insideUnitCircle*
+  name: insideUnitCircle
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_insideUnitCircle_
+  commentId: Overload:TestHelper.Random.IRandom.insideUnitCircle
+  isSpec: "True"
+  fullName: TestHelper.Random.IRandom.insideUnitCircle
+  nameWithType: IRandom.insideUnitCircle
+- uid: TestHelper.Random.IRandom.insideUnitSphere
+  name: insideUnitSphere
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_insideUnitSphere
+  commentId: P:TestHelper.Random.IRandom.insideUnitSphere
+  fullName: TestHelper.Random.IRandom.insideUnitSphere
+  nameWithType: IRandom.insideUnitSphere
+- uid: TestHelper.Random.IRandom.insideUnitSphere*
+  name: insideUnitSphere
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_insideUnitSphere_
+  commentId: Overload:TestHelper.Random.IRandom.insideUnitSphere
+  isSpec: "True"
+  fullName: TestHelper.Random.IRandom.insideUnitSphere
+  nameWithType: IRandom.insideUnitSphere
+- uid: TestHelper.Random.IRandom.onUnitSphere
+  name: onUnitSphere
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_onUnitSphere
+  commentId: P:TestHelper.Random.IRandom.onUnitSphere
+  fullName: TestHelper.Random.IRandom.onUnitSphere
+  nameWithType: IRandom.onUnitSphere
+- uid: TestHelper.Random.IRandom.onUnitSphere*
+  name: onUnitSphere
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_onUnitSphere_
+  commentId: Overload:TestHelper.Random.IRandom.onUnitSphere
+  isSpec: "True"
+  fullName: TestHelper.Random.IRandom.onUnitSphere
+  nameWithType: IRandom.onUnitSphere
+- uid: TestHelper.Random.IRandom.rotation
+  name: rotation
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_rotation
+  commentId: P:TestHelper.Random.IRandom.rotation
+  fullName: TestHelper.Random.IRandom.rotation
+  nameWithType: IRandom.rotation
+- uid: TestHelper.Random.IRandom.rotation*
+  name: rotation
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_rotation_
+  commentId: Overload:TestHelper.Random.IRandom.rotation
+  isSpec: "True"
+  fullName: TestHelper.Random.IRandom.rotation
+  nameWithType: IRandom.rotation
+- uid: TestHelper.Random.IRandom.rotationUniform
+  name: rotationUniform
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_rotationUniform
+  commentId: P:TestHelper.Random.IRandom.rotationUniform
+  fullName: TestHelper.Random.IRandom.rotationUniform
+  nameWithType: IRandom.rotationUniform
+- uid: TestHelper.Random.IRandom.rotationUniform*
+  name: rotationUniform
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_rotationUniform_
+  commentId: Overload:TestHelper.Random.IRandom.rotationUniform
+  isSpec: "True"
+  fullName: TestHelper.Random.IRandom.rotationUniform
+  nameWithType: IRandom.rotationUniform
+- uid: TestHelper.Random.IRandom.state
+  name: state
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_state
+  commentId: P:TestHelper.Random.IRandom.state
+  fullName: TestHelper.Random.IRandom.state
+  nameWithType: IRandom.state
+- uid: TestHelper.Random.IRandom.state*
+  name: state
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_state_
+  commentId: Overload:TestHelper.Random.IRandom.state
+  isSpec: "True"
+  fullName: TestHelper.Random.IRandom.state
+  nameWithType: IRandom.state
+- uid: TestHelper.Random.IRandom.value
+  name: value
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_value
+  commentId: P:TestHelper.Random.IRandom.value
+  fullName: TestHelper.Random.IRandom.value
+  nameWithType: IRandom.value
+- uid: TestHelper.Random.IRandom.value*
+  name: value
+  href: api/TestHelper.Random.IRandom.html#TestHelper_Random_IRandom_value_
+  commentId: Overload:TestHelper.Random.IRandom.value
+  isSpec: "True"
+  fullName: TestHelper.Random.IRandom.value
+  nameWithType: IRandom.value
 - uid: TestHelper.Random.RandomExtensions
   name: RandomExtensions
   href: api/TestHelper.Random.RandomExtensions.html
@@ -163,147 +311,6 @@ references:
   isSpec: "True"
   fullName: TestHelper.Random.RandomExtensionsTest.NextScreenPosition_InRange
   nameWithType: RandomExtensionsTest.NextScreenPosition_InRange
-- uid: TestHelper.Random.RandomExtensionsUnity
-  name: RandomExtensionsUnity
-  href: api/TestHelper.Random.RandomExtensionsUnity.html
-  commentId: T:TestHelper.Random.RandomExtensionsUnity
-  fullName: TestHelper.Random.RandomExtensionsUnity
-  nameWithType: RandomExtensionsUnity
-- uid: TestHelper.Random.RandomExtensionsUnity.ColorHSV(TestHelper.Random.IRandom,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-  name: ColorHSV(IRandom, float, float, float, float, float, float, float, float)
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_ColorHSV_TestHelper_Random_IRandom_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
-  commentId: M:TestHelper.Random.RandomExtensionsUnity.ColorHSV(TestHelper.Random.IRandom,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-  name.vb: ColorHSV(IRandom, Single, Single, Single, Single, Single, Single, Single, Single)
-  fullName: TestHelper.Random.RandomExtensionsUnity.ColorHSV(TestHelper.Random.IRandom, float, float, float, float, float, float, float, float)
-  fullName.vb: TestHelper.Random.RandomExtensionsUnity.ColorHSV(TestHelper.Random.IRandom, Single, Single, Single, Single, Single, Single, Single, Single)
-  nameWithType: RandomExtensionsUnity.ColorHSV(IRandom, float, float, float, float, float, float, float, float)
-  nameWithType.vb: RandomExtensionsUnity.ColorHSV(IRandom, Single, Single, Single, Single, Single, Single, Single, Single)
-- uid: TestHelper.Random.RandomExtensionsUnity.ColorHSV*
-  name: ColorHSV
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_ColorHSV_
-  commentId: Overload:TestHelper.Random.RandomExtensionsUnity.ColorHSV
-  isSpec: "True"
-  fullName: TestHelper.Random.RandomExtensionsUnity.ColorHSV
-  nameWithType: RandomExtensionsUnity.ColorHSV
-- uid: TestHelper.Random.RandomExtensionsUnity.RandomRangeInt(TestHelper.Random.IRandom,System.Int32,System.Int32)
-  name: RandomRangeInt(IRandom, int, int)
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_RandomRangeInt_TestHelper_Random_IRandom_System_Int32_System_Int32_
-  commentId: M:TestHelper.Random.RandomExtensionsUnity.RandomRangeInt(TestHelper.Random.IRandom,System.Int32,System.Int32)
-  name.vb: RandomRangeInt(IRandom, Integer, Integer)
-  fullName: TestHelper.Random.RandomExtensionsUnity.RandomRangeInt(TestHelper.Random.IRandom, int, int)
-  fullName.vb: TestHelper.Random.RandomExtensionsUnity.RandomRangeInt(TestHelper.Random.IRandom, Integer, Integer)
-  nameWithType: RandomExtensionsUnity.RandomRangeInt(IRandom, int, int)
-  nameWithType.vb: RandomExtensionsUnity.RandomRangeInt(IRandom, Integer, Integer)
-- uid: TestHelper.Random.RandomExtensionsUnity.RandomRangeInt*
-  name: RandomRangeInt
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_RandomRangeInt_
-  commentId: Overload:TestHelper.Random.RandomExtensionsUnity.RandomRangeInt
-  isSpec: "True"
-  fullName: TestHelper.Random.RandomExtensionsUnity.RandomRangeInt
-  nameWithType: RandomExtensionsUnity.RandomRangeInt
-- uid: TestHelper.Random.RandomExtensionsUnity.Range(TestHelper.Random.IRandom,System.Int32,System.Int32)
-  name: Range(IRandom, int, int)
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_Range_TestHelper_Random_IRandom_System_Int32_System_Int32_
-  commentId: M:TestHelper.Random.RandomExtensionsUnity.Range(TestHelper.Random.IRandom,System.Int32,System.Int32)
-  name.vb: Range(IRandom, Integer, Integer)
-  fullName: TestHelper.Random.RandomExtensionsUnity.Range(TestHelper.Random.IRandom, int, int)
-  fullName.vb: TestHelper.Random.RandomExtensionsUnity.Range(TestHelper.Random.IRandom, Integer, Integer)
-  nameWithType: RandomExtensionsUnity.Range(IRandom, int, int)
-  nameWithType.vb: RandomExtensionsUnity.Range(IRandom, Integer, Integer)
-- uid: TestHelper.Random.RandomExtensionsUnity.Range(TestHelper.Random.IRandom,System.Single,System.Single)
-  name: Range(IRandom, float, float)
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_Range_TestHelper_Random_IRandom_System_Single_System_Single_
-  commentId: M:TestHelper.Random.RandomExtensionsUnity.Range(TestHelper.Random.IRandom,System.Single,System.Single)
-  name.vb: Range(IRandom, Single, Single)
-  fullName: TestHelper.Random.RandomExtensionsUnity.Range(TestHelper.Random.IRandom, float, float)
-  fullName.vb: TestHelper.Random.RandomExtensionsUnity.Range(TestHelper.Random.IRandom, Single, Single)
-  nameWithType: RandomExtensionsUnity.Range(IRandom, float, float)
-  nameWithType.vb: RandomExtensionsUnity.Range(IRandom, Single, Single)
-- uid: TestHelper.Random.RandomExtensionsUnity.Range*
-  name: Range
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_Range_
-  commentId: Overload:TestHelper.Random.RandomExtensionsUnity.Range
-  isSpec: "True"
-  fullName: TestHelper.Random.RandomExtensionsUnity.Range
-  nameWithType: RandomExtensionsUnity.Range
-- uid: TestHelper.Random.RandomExtensionsUnity.insideUnitCircle(TestHelper.Random.IRandom)
-  name: insideUnitCircle(IRandom)
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_insideUnitCircle_TestHelper_Random_IRandom_
-  commentId: M:TestHelper.Random.RandomExtensionsUnity.insideUnitCircle(TestHelper.Random.IRandom)
-  fullName: TestHelper.Random.RandomExtensionsUnity.insideUnitCircle(TestHelper.Random.IRandom)
-  nameWithType: RandomExtensionsUnity.insideUnitCircle(IRandom)
-- uid: TestHelper.Random.RandomExtensionsUnity.insideUnitCircle*
-  name: insideUnitCircle
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_insideUnitCircle_
-  commentId: Overload:TestHelper.Random.RandomExtensionsUnity.insideUnitCircle
-  isSpec: "True"
-  fullName: TestHelper.Random.RandomExtensionsUnity.insideUnitCircle
-  nameWithType: RandomExtensionsUnity.insideUnitCircle
-- uid: TestHelper.Random.RandomExtensionsUnity.insideUnitSphere(TestHelper.Random.IRandom)
-  name: insideUnitSphere(IRandom)
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_insideUnitSphere_TestHelper_Random_IRandom_
-  commentId: M:TestHelper.Random.RandomExtensionsUnity.insideUnitSphere(TestHelper.Random.IRandom)
-  fullName: TestHelper.Random.RandomExtensionsUnity.insideUnitSphere(TestHelper.Random.IRandom)
-  nameWithType: RandomExtensionsUnity.insideUnitSphere(IRandom)
-- uid: TestHelper.Random.RandomExtensionsUnity.insideUnitSphere*
-  name: insideUnitSphere
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_insideUnitSphere_
-  commentId: Overload:TestHelper.Random.RandomExtensionsUnity.insideUnitSphere
-  isSpec: "True"
-  fullName: TestHelper.Random.RandomExtensionsUnity.insideUnitSphere
-  nameWithType: RandomExtensionsUnity.insideUnitSphere
-- uid: TestHelper.Random.RandomExtensionsUnity.onUnitSphere(TestHelper.Random.IRandom)
-  name: onUnitSphere(IRandom)
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_onUnitSphere_TestHelper_Random_IRandom_
-  commentId: M:TestHelper.Random.RandomExtensionsUnity.onUnitSphere(TestHelper.Random.IRandom)
-  fullName: TestHelper.Random.RandomExtensionsUnity.onUnitSphere(TestHelper.Random.IRandom)
-  nameWithType: RandomExtensionsUnity.onUnitSphere(IRandom)
-- uid: TestHelper.Random.RandomExtensionsUnity.onUnitSphere*
-  name: onUnitSphere
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_onUnitSphere_
-  commentId: Overload:TestHelper.Random.RandomExtensionsUnity.onUnitSphere
-  isSpec: "True"
-  fullName: TestHelper.Random.RandomExtensionsUnity.onUnitSphere
-  nameWithType: RandomExtensionsUnity.onUnitSphere
-- uid: TestHelper.Random.RandomExtensionsUnity.rotation(TestHelper.Random.IRandom)
-  name: rotation(IRandom)
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_rotation_TestHelper_Random_IRandom_
-  commentId: M:TestHelper.Random.RandomExtensionsUnity.rotation(TestHelper.Random.IRandom)
-  fullName: TestHelper.Random.RandomExtensionsUnity.rotation(TestHelper.Random.IRandom)
-  nameWithType: RandomExtensionsUnity.rotation(IRandom)
-- uid: TestHelper.Random.RandomExtensionsUnity.rotation*
-  name: rotation
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_rotation_
-  commentId: Overload:TestHelper.Random.RandomExtensionsUnity.rotation
-  isSpec: "True"
-  fullName: TestHelper.Random.RandomExtensionsUnity.rotation
-  nameWithType: RandomExtensionsUnity.rotation
-- uid: TestHelper.Random.RandomExtensionsUnity.rotationUniform(TestHelper.Random.IRandom)
-  name: rotationUniform(IRandom)
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_rotationUniform_TestHelper_Random_IRandom_
-  commentId: M:TestHelper.Random.RandomExtensionsUnity.rotationUniform(TestHelper.Random.IRandom)
-  fullName: TestHelper.Random.RandomExtensionsUnity.rotationUniform(TestHelper.Random.IRandom)
-  nameWithType: RandomExtensionsUnity.rotationUniform(IRandom)
-- uid: TestHelper.Random.RandomExtensionsUnity.rotationUniform*
-  name: rotationUniform
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_rotationUniform_
-  commentId: Overload:TestHelper.Random.RandomExtensionsUnity.rotationUniform
-  isSpec: "True"
-  fullName: TestHelper.Random.RandomExtensionsUnity.rotationUniform
-  nameWithType: RandomExtensionsUnity.rotationUniform
-- uid: TestHelper.Random.RandomExtensionsUnity.value(TestHelper.Random.IRandom)
-  name: value(IRandom)
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_value_TestHelper_Random_IRandom_
-  commentId: M:TestHelper.Random.RandomExtensionsUnity.value(TestHelper.Random.IRandom)
-  fullName: TestHelper.Random.RandomExtensionsUnity.value(TestHelper.Random.IRandom)
-  nameWithType: RandomExtensionsUnity.value(IRandom)
-- uid: TestHelper.Random.RandomExtensionsUnity.value*
-  name: value
-  href: api/TestHelper.Random.RandomExtensionsUnity.html#TestHelper_Random_RandomExtensionsUnity_value_
-  commentId: Overload:TestHelper.Random.RandomExtensionsUnity.value
-  isSpec: "True"
-  fullName: TestHelper.Random.RandomExtensionsUnity.value
-  nameWithType: RandomExtensionsUnity.value
 - uid: TestHelper.Random.RandomImpl
   name: RandomImpl
   href: api/TestHelper.Random.RandomImpl.html
@@ -338,6 +345,38 @@ references:
   fullName.vb: TestHelper.Random.RandomImpl.New
   nameWithType: RandomImpl.RandomImpl
   nameWithType.vb: RandomImpl.New
+- uid: TestHelper.Random.RandomImpl.ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name: ColorHSV(float, float, float, float, float, float, float, float)
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_ColorHSV_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:TestHelper.Random.RandomImpl.ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name.vb: ColorHSV(Single, Single, Single, Single, Single, Single, Single, Single)
+  fullName: TestHelper.Random.RandomImpl.ColorHSV(float, float, float, float, float, float, float, float)
+  fullName.vb: TestHelper.Random.RandomImpl.ColorHSV(Single, Single, Single, Single, Single, Single, Single, Single)
+  nameWithType: RandomImpl.ColorHSV(float, float, float, float, float, float, float, float)
+  nameWithType.vb: RandomImpl.ColorHSV(Single, Single, Single, Single, Single, Single, Single, Single)
+- uid: TestHelper.Random.RandomImpl.ColorHSV*
+  name: ColorHSV
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_ColorHSV_
+  commentId: Overload:TestHelper.Random.RandomImpl.ColorHSV
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomImpl.ColorHSV
+  nameWithType: RandomImpl.ColorHSV
+- uid: TestHelper.Random.RandomImpl.InitState(System.Int32)
+  name: InitState(int)
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_InitState_System_Int32_
+  commentId: M:TestHelper.Random.RandomImpl.InitState(System.Int32)
+  name.vb: InitState(Integer)
+  fullName: TestHelper.Random.RandomImpl.InitState(int)
+  fullName.vb: TestHelper.Random.RandomImpl.InitState(Integer)
+  nameWithType: RandomImpl.InitState(int)
+  nameWithType.vb: RandomImpl.InitState(Integer)
+- uid: TestHelper.Random.RandomImpl.InitState*
+  name: InitState
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_InitState_
+  commentId: Overload:TestHelper.Random.RandomImpl.InitState
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomImpl.InitState
+  nameWithType: RandomImpl.InitState
 - uid: TestHelper.Random.RandomImpl.Next
   name: Next()
   href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_Next
@@ -398,6 +437,31 @@ references:
   isSpec: "True"
   fullName: TestHelper.Random.RandomImpl.NextDouble
   nameWithType: RandomImpl.NextDouble
+- uid: TestHelper.Random.RandomImpl.Range(System.Int32,System.Int32)
+  name: Range(int, int)
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_Range_System_Int32_System_Int32_
+  commentId: M:TestHelper.Random.RandomImpl.Range(System.Int32,System.Int32)
+  name.vb: Range(Integer, Integer)
+  fullName: TestHelper.Random.RandomImpl.Range(int, int)
+  fullName.vb: TestHelper.Random.RandomImpl.Range(Integer, Integer)
+  nameWithType: RandomImpl.Range(int, int)
+  nameWithType.vb: RandomImpl.Range(Integer, Integer)
+- uid: TestHelper.Random.RandomImpl.Range(System.Single,System.Single)
+  name: Range(float, float)
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_Range_System_Single_System_Single_
+  commentId: M:TestHelper.Random.RandomImpl.Range(System.Single,System.Single)
+  name.vb: Range(Single, Single)
+  fullName: TestHelper.Random.RandomImpl.Range(float, float)
+  fullName.vb: TestHelper.Random.RandomImpl.Range(Single, Single)
+  nameWithType: RandomImpl.Range(float, float)
+  nameWithType.vb: RandomImpl.Range(Single, Single)
+- uid: TestHelper.Random.RandomImpl.Range*
+  name: Range
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_Range_
+  commentId: Overload:TestHelper.Random.RandomImpl.Range
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomImpl.Range
+  nameWithType: RandomImpl.Range
 - uid: TestHelper.Random.RandomImpl.ToString
   name: ToString()
   href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_ToString
@@ -411,149 +475,516 @@ references:
   isSpec: "True"
   fullName: TestHelper.Random.RandomImpl.ToString
   nameWithType: RandomImpl.ToString
-- uid: TestHelper.Random.RandomImplTest
-  name: RandomImplTest
-  href: api/TestHelper.Random.RandomImplTest.html
-  commentId: T:TestHelper.Random.RandomImplTest
-  fullName: TestHelper.Random.RandomImplTest
-  nameWithType: RandomImplTest
-- uid: TestHelper.Random.RandomImplTest.Constructor
-  name: Constructor()
-  href: api/TestHelper.Random.RandomImplTest.html#TestHelper_Random_RandomImplTest_Constructor
-  commentId: M:TestHelper.Random.RandomImplTest.Constructor
-  fullName: TestHelper.Random.RandomImplTest.Constructor()
-  nameWithType: RandomImplTest.Constructor()
-- uid: TestHelper.Random.RandomImplTest.Constructor*
-  name: Constructor
-  href: api/TestHelper.Random.RandomImplTest.html#TestHelper_Random_RandomImplTest_Constructor_
-  commentId: Overload:TestHelper.Random.RandomImplTest.Constructor
+- uid: TestHelper.Random.RandomImpl.insideUnitCircle
+  name: insideUnitCircle
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_insideUnitCircle
+  commentId: P:TestHelper.Random.RandomImpl.insideUnitCircle
+  fullName: TestHelper.Random.RandomImpl.insideUnitCircle
+  nameWithType: RandomImpl.insideUnitCircle
+- uid: TestHelper.Random.RandomImpl.insideUnitCircle*
+  name: insideUnitCircle
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_insideUnitCircle_
+  commentId: Overload:TestHelper.Random.RandomImpl.insideUnitCircle
   isSpec: "True"
-  fullName: TestHelper.Random.RandomImplTest.Constructor
-  nameWithType: RandomImplTest.Constructor
-- uid: TestHelper.Random.RandomImplTest.Constructor_NegativeSeedValue_UsingAbsoluteValue
-  name: Constructor_NegativeSeedValue_UsingAbsoluteValue()
-  href: api/TestHelper.Random.RandomImplTest.html#TestHelper_Random_RandomImplTest_Constructor_NegativeSeedValue_UsingAbsoluteValue
-  commentId: M:TestHelper.Random.RandomImplTest.Constructor_NegativeSeedValue_UsingAbsoluteValue
-  fullName: TestHelper.Random.RandomImplTest.Constructor_NegativeSeedValue_UsingAbsoluteValue()
-  nameWithType: RandomImplTest.Constructor_NegativeSeedValue_UsingAbsoluteValue()
-- uid: TestHelper.Random.RandomImplTest.Constructor_NegativeSeedValue_UsingAbsoluteValue*
-  name: Constructor_NegativeSeedValue_UsingAbsoluteValue
-  href: api/TestHelper.Random.RandomImplTest.html#TestHelper_Random_RandomImplTest_Constructor_NegativeSeedValue_UsingAbsoluteValue_
-  commentId: Overload:TestHelper.Random.RandomImplTest.Constructor_NegativeSeedValue_UsingAbsoluteValue
+  fullName: TestHelper.Random.RandomImpl.insideUnitCircle
+  nameWithType: RandomImpl.insideUnitCircle
+- uid: TestHelper.Random.RandomImpl.insideUnitSphere
+  name: insideUnitSphere
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_insideUnitSphere
+  commentId: P:TestHelper.Random.RandomImpl.insideUnitSphere
+  fullName: TestHelper.Random.RandomImpl.insideUnitSphere
+  nameWithType: RandomImpl.insideUnitSphere
+- uid: TestHelper.Random.RandomImpl.insideUnitSphere*
+  name: insideUnitSphere
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_insideUnitSphere_
+  commentId: Overload:TestHelper.Random.RandomImpl.insideUnitSphere
   isSpec: "True"
-  fullName: TestHelper.Random.RandomImplTest.Constructor_NegativeSeedValue_UsingAbsoluteValue
-  nameWithType: RandomImplTest.Constructor_NegativeSeedValue_UsingAbsoluteValue
-- uid: TestHelper.Random.RandomImplTest.DefaultConstructor_UsingTickCount
-  name: DefaultConstructor_UsingTickCount()
-  href: api/TestHelper.Random.RandomImplTest.html#TestHelper_Random_RandomImplTest_DefaultConstructor_UsingTickCount
-  commentId: M:TestHelper.Random.RandomImplTest.DefaultConstructor_UsingTickCount
-  fullName: TestHelper.Random.RandomImplTest.DefaultConstructor_UsingTickCount()
-  nameWithType: RandomImplTest.DefaultConstructor_UsingTickCount()
-- uid: TestHelper.Random.RandomImplTest.DefaultConstructor_UsingTickCount*
-  name: DefaultConstructor_UsingTickCount
-  href: api/TestHelper.Random.RandomImplTest.html#TestHelper_Random_RandomImplTest_DefaultConstructor_UsingTickCount_
-  commentId: Overload:TestHelper.Random.RandomImplTest.DefaultConstructor_UsingTickCount
+  fullName: TestHelper.Random.RandomImpl.insideUnitSphere
+  nameWithType: RandomImpl.insideUnitSphere
+- uid: TestHelper.Random.RandomImpl.onUnitSphere
+  name: onUnitSphere
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_onUnitSphere
+  commentId: P:TestHelper.Random.RandomImpl.onUnitSphere
+  fullName: TestHelper.Random.RandomImpl.onUnitSphere
+  nameWithType: RandomImpl.onUnitSphere
+- uid: TestHelper.Random.RandomImpl.onUnitSphere*
+  name: onUnitSphere
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_onUnitSphere_
+  commentId: Overload:TestHelper.Random.RandomImpl.onUnitSphere
   isSpec: "True"
-  fullName: TestHelper.Random.RandomImplTest.DefaultConstructor_UsingTickCount
-  nameWithType: RandomImplTest.DefaultConstructor_UsingTickCount
-- uid: TestHelper.Random.StubRandom
-  name: StubRandom
-  href: api/TestHelper.Random.StubRandom.html
-  commentId: T:TestHelper.Random.StubRandom
-  fullName: TestHelper.Random.StubRandom
-  nameWithType: StubRandom
-- uid: TestHelper.Random.StubRandom.#ctor(System.Int32[])
-  name: StubRandom(params int[])
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom__ctor_System_Int32___
-  commentId: M:TestHelper.Random.StubRandom.#ctor(System.Int32[])
-  name.vb: New(ParamArray Integer())
-  fullName: TestHelper.Random.StubRandom.StubRandom(params int[])
-  fullName.vb: TestHelper.Random.StubRandom.New(ParamArray Integer())
-  nameWithType: StubRandom.StubRandom(params int[])
-  nameWithType.vb: StubRandom.New(ParamArray Integer())
-- uid: TestHelper.Random.StubRandom.#ctor*
-  name: StubRandom
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom__ctor_
-  commentId: Overload:TestHelper.Random.StubRandom.#ctor
+  fullName: TestHelper.Random.RandomImpl.onUnitSphere
+  nameWithType: RandomImpl.onUnitSphere
+- uid: TestHelper.Random.RandomImpl.rotation
+  name: rotation
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_rotation
+  commentId: P:TestHelper.Random.RandomImpl.rotation
+  fullName: TestHelper.Random.RandomImpl.rotation
+  nameWithType: RandomImpl.rotation
+- uid: TestHelper.Random.RandomImpl.rotation*
+  name: rotation
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_rotation_
+  commentId: Overload:TestHelper.Random.RandomImpl.rotation
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomImpl.rotation
+  nameWithType: RandomImpl.rotation
+- uid: TestHelper.Random.RandomImpl.rotationUniform
+  name: rotationUniform
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_rotationUniform
+  commentId: P:TestHelper.Random.RandomImpl.rotationUniform
+  fullName: TestHelper.Random.RandomImpl.rotationUniform
+  nameWithType: RandomImpl.rotationUniform
+- uid: TestHelper.Random.RandomImpl.rotationUniform*
+  name: rotationUniform
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_rotationUniform_
+  commentId: Overload:TestHelper.Random.RandomImpl.rotationUniform
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomImpl.rotationUniform
+  nameWithType: RandomImpl.rotationUniform
+- uid: TestHelper.Random.RandomImpl.state
+  name: state
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_state
+  commentId: P:TestHelper.Random.RandomImpl.state
+  fullName: TestHelper.Random.RandomImpl.state
+  nameWithType: RandomImpl.state
+- uid: TestHelper.Random.RandomImpl.state*
+  name: state
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_state_
+  commentId: Overload:TestHelper.Random.RandomImpl.state
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomImpl.state
+  nameWithType: RandomImpl.state
+- uid: TestHelper.Random.RandomImpl.value
+  name: value
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_value
+  commentId: P:TestHelper.Random.RandomImpl.value
+  fullName: TestHelper.Random.RandomImpl.value
+  nameWithType: RandomImpl.value
+- uid: TestHelper.Random.RandomImpl.value*
+  name: value
+  href: api/TestHelper.Random.RandomImpl.html#TestHelper_Random_RandomImpl_value_
+  commentId: Overload:TestHelper.Random.RandomImpl.value
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomImpl.value
+  nameWithType: RandomImpl.value
+- uid: TestHelper.Random.RandomWrapper
+  name: RandomWrapper
+  href: api/TestHelper.Random.RandomWrapper.html
+  commentId: T:TestHelper.Random.RandomWrapper
+  fullName: TestHelper.Random.RandomWrapper
+  nameWithType: RandomWrapper
+- uid: TestHelper.Random.RandomWrapper.#ctor
+  name: RandomWrapper()
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper__ctor
+  commentId: M:TestHelper.Random.RandomWrapper.#ctor
+  name.vb: New()
+  fullName: TestHelper.Random.RandomWrapper.RandomWrapper()
+  fullName.vb: TestHelper.Random.RandomWrapper.New()
+  nameWithType: RandomWrapper.RandomWrapper()
+  nameWithType.vb: RandomWrapper.New()
+- uid: TestHelper.Random.RandomWrapper.#ctor(System.Int32)
+  name: RandomWrapper(int)
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper__ctor_System_Int32_
+  commentId: M:TestHelper.Random.RandomWrapper.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: TestHelper.Random.RandomWrapper.RandomWrapper(int)
+  fullName.vb: TestHelper.Random.RandomWrapper.New(Integer)
+  nameWithType: RandomWrapper.RandomWrapper(int)
+  nameWithType.vb: RandomWrapper.New(Integer)
+- uid: TestHelper.Random.RandomWrapper.#ctor*
+  name: RandomWrapper
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper__ctor_
+  commentId: Overload:TestHelper.Random.RandomWrapper.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: TestHelper.Random.StubRandom.StubRandom
-  fullName.vb: TestHelper.Random.StubRandom.New
-  nameWithType: StubRandom.StubRandom
-  nameWithType.vb: StubRandom.New
-- uid: TestHelper.Random.StubRandom.Next
+  fullName: TestHelper.Random.RandomWrapper.RandomWrapper
+  fullName.vb: TestHelper.Random.RandomWrapper.New
+  nameWithType: RandomWrapper.RandomWrapper
+  nameWithType.vb: RandomWrapper.New
+- uid: TestHelper.Random.RandomWrapper.ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name: ColorHSV(float, float, float, float, float, float, float, float)
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_ColorHSV_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:TestHelper.Random.RandomWrapper.ColorHSV(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name.vb: ColorHSV(Single, Single, Single, Single, Single, Single, Single, Single)
+  fullName: TestHelper.Random.RandomWrapper.ColorHSV(float, float, float, float, float, float, float, float)
+  fullName.vb: TestHelper.Random.RandomWrapper.ColorHSV(Single, Single, Single, Single, Single, Single, Single, Single)
+  nameWithType: RandomWrapper.ColorHSV(float, float, float, float, float, float, float, float)
+  nameWithType.vb: RandomWrapper.ColorHSV(Single, Single, Single, Single, Single, Single, Single, Single)
+- uid: TestHelper.Random.RandomWrapper.ColorHSV*
+  name: ColorHSV
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_ColorHSV_
+  commentId: Overload:TestHelper.Random.RandomWrapper.ColorHSV
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapper.ColorHSV
+  nameWithType: RandomWrapper.ColorHSV
+- uid: TestHelper.Random.RandomWrapper.InitState(System.Int32)
+  name: InitState(int)
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_InitState_System_Int32_
+  commentId: M:TestHelper.Random.RandomWrapper.InitState(System.Int32)
+  name.vb: InitState(Integer)
+  fullName: TestHelper.Random.RandomWrapper.InitState(int)
+  fullName.vb: TestHelper.Random.RandomWrapper.InitState(Integer)
+  nameWithType: RandomWrapper.InitState(int)
+  nameWithType.vb: RandomWrapper.InitState(Integer)
+- uid: TestHelper.Random.RandomWrapper.InitState*
+  name: InitState
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_InitState_
+  commentId: Overload:TestHelper.Random.RandomWrapper.InitState
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapper.InitState
+  nameWithType: RandomWrapper.InitState
+- uid: TestHelper.Random.RandomWrapper.Next
   name: Next()
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom_Next
-  commentId: M:TestHelper.Random.StubRandom.Next
-  fullName: TestHelper.Random.StubRandom.Next()
-  nameWithType: StubRandom.Next()
-- uid: TestHelper.Random.StubRandom.Next(System.Int32)
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_Next
+  commentId: M:TestHelper.Random.RandomWrapper.Next
+  fullName: TestHelper.Random.RandomWrapper.Next()
+  nameWithType: RandomWrapper.Next()
+- uid: TestHelper.Random.RandomWrapper.Next(System.Int32)
   name: Next(int)
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom_Next_System_Int32_
-  commentId: M:TestHelper.Random.StubRandom.Next(System.Int32)
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_Next_System_Int32_
+  commentId: M:TestHelper.Random.RandomWrapper.Next(System.Int32)
   name.vb: Next(Integer)
-  fullName: TestHelper.Random.StubRandom.Next(int)
-  fullName.vb: TestHelper.Random.StubRandom.Next(Integer)
-  nameWithType: StubRandom.Next(int)
-  nameWithType.vb: StubRandom.Next(Integer)
-- uid: TestHelper.Random.StubRandom.Next(System.Int32,System.Int32)
+  fullName: TestHelper.Random.RandomWrapper.Next(int)
+  fullName.vb: TestHelper.Random.RandomWrapper.Next(Integer)
+  nameWithType: RandomWrapper.Next(int)
+  nameWithType.vb: RandomWrapper.Next(Integer)
+- uid: TestHelper.Random.RandomWrapper.Next(System.Int32,System.Int32)
   name: Next(int, int)
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom_Next_System_Int32_System_Int32_
-  commentId: M:TestHelper.Random.StubRandom.Next(System.Int32,System.Int32)
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_Next_System_Int32_System_Int32_
+  commentId: M:TestHelper.Random.RandomWrapper.Next(System.Int32,System.Int32)
   name.vb: Next(Integer, Integer)
-  fullName: TestHelper.Random.StubRandom.Next(int, int)
-  fullName.vb: TestHelper.Random.StubRandom.Next(Integer, Integer)
-  nameWithType: StubRandom.Next(int, int)
-  nameWithType.vb: StubRandom.Next(Integer, Integer)
-- uid: TestHelper.Random.StubRandom.Next*
+  fullName: TestHelper.Random.RandomWrapper.Next(int, int)
+  fullName.vb: TestHelper.Random.RandomWrapper.Next(Integer, Integer)
+  nameWithType: RandomWrapper.Next(int, int)
+  nameWithType.vb: RandomWrapper.Next(Integer, Integer)
+- uid: TestHelper.Random.RandomWrapper.Next*
   name: Next
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom_Next_
-  commentId: Overload:TestHelper.Random.StubRandom.Next
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_Next_
+  commentId: Overload:TestHelper.Random.RandomWrapper.Next
   isSpec: "True"
-  fullName: TestHelper.Random.StubRandom.Next
-  nameWithType: StubRandom.Next
-- uid: TestHelper.Random.StubRandom.NextBytes(System.Byte[])
+  fullName: TestHelper.Random.RandomWrapper.Next
+  nameWithType: RandomWrapper.Next
+- uid: TestHelper.Random.RandomWrapper.NextBytes(System.Byte[])
   name: NextBytes(byte[])
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom_NextBytes_System_Byte___
-  commentId: M:TestHelper.Random.StubRandom.NextBytes(System.Byte[])
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_NextBytes_System_Byte___
+  commentId: M:TestHelper.Random.RandomWrapper.NextBytes(System.Byte[])
   name.vb: NextBytes(Byte())
-  fullName: TestHelper.Random.StubRandom.NextBytes(byte[])
-  fullName.vb: TestHelper.Random.StubRandom.NextBytes(Byte())
-  nameWithType: StubRandom.NextBytes(byte[])
-  nameWithType.vb: StubRandom.NextBytes(Byte())
-- uid: TestHelper.Random.StubRandom.NextBytes*
+  fullName: TestHelper.Random.RandomWrapper.NextBytes(byte[])
+  fullName.vb: TestHelper.Random.RandomWrapper.NextBytes(Byte())
+  nameWithType: RandomWrapper.NextBytes(byte[])
+  nameWithType.vb: RandomWrapper.NextBytes(Byte())
+- uid: TestHelper.Random.RandomWrapper.NextBytes*
   name: NextBytes
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom_NextBytes_
-  commentId: Overload:TestHelper.Random.StubRandom.NextBytes
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_NextBytes_
+  commentId: Overload:TestHelper.Random.RandomWrapper.NextBytes
   isSpec: "True"
-  fullName: TestHelper.Random.StubRandom.NextBytes
-  nameWithType: StubRandom.NextBytes
-- uid: TestHelper.Random.StubRandom.NextDouble
+  fullName: TestHelper.Random.RandomWrapper.NextBytes
+  nameWithType: RandomWrapper.NextBytes
+- uid: TestHelper.Random.RandomWrapper.NextDouble
   name: NextDouble()
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom_NextDouble
-  commentId: M:TestHelper.Random.StubRandom.NextDouble
-  fullName: TestHelper.Random.StubRandom.NextDouble()
-  nameWithType: StubRandom.NextDouble()
-- uid: TestHelper.Random.StubRandom.NextDouble*
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_NextDouble
+  commentId: M:TestHelper.Random.RandomWrapper.NextDouble
+  fullName: TestHelper.Random.RandomWrapper.NextDouble()
+  nameWithType: RandomWrapper.NextDouble()
+- uid: TestHelper.Random.RandomWrapper.NextDouble*
   name: NextDouble
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom_NextDouble_
-  commentId: Overload:TestHelper.Random.StubRandom.NextDouble
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_NextDouble_
+  commentId: Overload:TestHelper.Random.RandomWrapper.NextDouble
   isSpec: "True"
-  fullName: TestHelper.Random.StubRandom.NextDouble
-  nameWithType: StubRandom.NextDouble
-- uid: TestHelper.Random.StubRandom.ToString
+  fullName: TestHelper.Random.RandomWrapper.NextDouble
+  nameWithType: RandomWrapper.NextDouble
+- uid: TestHelper.Random.RandomWrapper.Range(System.Int32,System.Int32)
+  name: Range(int, int)
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_Range_System_Int32_System_Int32_
+  commentId: M:TestHelper.Random.RandomWrapper.Range(System.Int32,System.Int32)
+  name.vb: Range(Integer, Integer)
+  fullName: TestHelper.Random.RandomWrapper.Range(int, int)
+  fullName.vb: TestHelper.Random.RandomWrapper.Range(Integer, Integer)
+  nameWithType: RandomWrapper.Range(int, int)
+  nameWithType.vb: RandomWrapper.Range(Integer, Integer)
+- uid: TestHelper.Random.RandomWrapper.Range(System.Single,System.Single)
+  name: Range(float, float)
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_Range_System_Single_System_Single_
+  commentId: M:TestHelper.Random.RandomWrapper.Range(System.Single,System.Single)
+  name.vb: Range(Single, Single)
+  fullName: TestHelper.Random.RandomWrapper.Range(float, float)
+  fullName.vb: TestHelper.Random.RandomWrapper.Range(Single, Single)
+  nameWithType: RandomWrapper.Range(float, float)
+  nameWithType.vb: RandomWrapper.Range(Single, Single)
+- uid: TestHelper.Random.RandomWrapper.Range*
+  name: Range
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_Range_
+  commentId: Overload:TestHelper.Random.RandomWrapper.Range
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapper.Range
+  nameWithType: RandomWrapper.Range
+- uid: TestHelper.Random.RandomWrapper.ToString
   name: ToString()
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom_ToString
-  commentId: M:TestHelper.Random.StubRandom.ToString
-  fullName: TestHelper.Random.StubRandom.ToString()
-  nameWithType: StubRandom.ToString()
-- uid: TestHelper.Random.StubRandom.ToString*
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_ToString
+  commentId: M:TestHelper.Random.RandomWrapper.ToString
+  fullName: TestHelper.Random.RandomWrapper.ToString()
+  nameWithType: RandomWrapper.ToString()
+- uid: TestHelper.Random.RandomWrapper.ToString*
   name: ToString
-  href: api/TestHelper.Random.StubRandom.html#TestHelper_Random_StubRandom_ToString_
-  commentId: Overload:TestHelper.Random.StubRandom.ToString
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_ToString_
+  commentId: Overload:TestHelper.Random.RandomWrapper.ToString
   isSpec: "True"
-  fullName: TestHelper.Random.StubRandom.ToString
-  nameWithType: StubRandom.ToString
+  fullName: TestHelper.Random.RandomWrapper.ToString
+  nameWithType: RandomWrapper.ToString
+- uid: TestHelper.Random.RandomWrapper.insideUnitCircle
+  name: insideUnitCircle
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_insideUnitCircle
+  commentId: P:TestHelper.Random.RandomWrapper.insideUnitCircle
+  fullName: TestHelper.Random.RandomWrapper.insideUnitCircle
+  nameWithType: RandomWrapper.insideUnitCircle
+- uid: TestHelper.Random.RandomWrapper.insideUnitCircle*
+  name: insideUnitCircle
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_insideUnitCircle_
+  commentId: Overload:TestHelper.Random.RandomWrapper.insideUnitCircle
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapper.insideUnitCircle
+  nameWithType: RandomWrapper.insideUnitCircle
+- uid: TestHelper.Random.RandomWrapper.insideUnitSphere
+  name: insideUnitSphere
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_insideUnitSphere
+  commentId: P:TestHelper.Random.RandomWrapper.insideUnitSphere
+  fullName: TestHelper.Random.RandomWrapper.insideUnitSphere
+  nameWithType: RandomWrapper.insideUnitSphere
+- uid: TestHelper.Random.RandomWrapper.insideUnitSphere*
+  name: insideUnitSphere
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_insideUnitSphere_
+  commentId: Overload:TestHelper.Random.RandomWrapper.insideUnitSphere
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapper.insideUnitSphere
+  nameWithType: RandomWrapper.insideUnitSphere
+- uid: TestHelper.Random.RandomWrapper.onUnitSphere
+  name: onUnitSphere
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_onUnitSphere
+  commentId: P:TestHelper.Random.RandomWrapper.onUnitSphere
+  fullName: TestHelper.Random.RandomWrapper.onUnitSphere
+  nameWithType: RandomWrapper.onUnitSphere
+- uid: TestHelper.Random.RandomWrapper.onUnitSphere*
+  name: onUnitSphere
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_onUnitSphere_
+  commentId: Overload:TestHelper.Random.RandomWrapper.onUnitSphere
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapper.onUnitSphere
+  nameWithType: RandomWrapper.onUnitSphere
+- uid: TestHelper.Random.RandomWrapper.rotation
+  name: rotation
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_rotation
+  commentId: P:TestHelper.Random.RandomWrapper.rotation
+  fullName: TestHelper.Random.RandomWrapper.rotation
+  nameWithType: RandomWrapper.rotation
+- uid: TestHelper.Random.RandomWrapper.rotation*
+  name: rotation
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_rotation_
+  commentId: Overload:TestHelper.Random.RandomWrapper.rotation
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapper.rotation
+  nameWithType: RandomWrapper.rotation
+- uid: TestHelper.Random.RandomWrapper.rotationUniform
+  name: rotationUniform
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_rotationUniform
+  commentId: P:TestHelper.Random.RandomWrapper.rotationUniform
+  fullName: TestHelper.Random.RandomWrapper.rotationUniform
+  nameWithType: RandomWrapper.rotationUniform
+- uid: TestHelper.Random.RandomWrapper.rotationUniform*
+  name: rotationUniform
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_rotationUniform_
+  commentId: Overload:TestHelper.Random.RandomWrapper.rotationUniform
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapper.rotationUniform
+  nameWithType: RandomWrapper.rotationUniform
+- uid: TestHelper.Random.RandomWrapper.state
+  name: state
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_state
+  commentId: P:TestHelper.Random.RandomWrapper.state
+  fullName: TestHelper.Random.RandomWrapper.state
+  nameWithType: RandomWrapper.state
+- uid: TestHelper.Random.RandomWrapper.state*
+  name: state
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_state_
+  commentId: Overload:TestHelper.Random.RandomWrapper.state
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapper.state
+  nameWithType: RandomWrapper.state
+- uid: TestHelper.Random.RandomWrapper.value
+  name: value
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_value
+  commentId: P:TestHelper.Random.RandomWrapper.value
+  fullName: TestHelper.Random.RandomWrapper.value
+  nameWithType: RandomWrapper.value
+- uid: TestHelper.Random.RandomWrapper.value*
+  name: value
+  href: api/TestHelper.Random.RandomWrapper.html#TestHelper_Random_RandomWrapper_value_
+  commentId: Overload:TestHelper.Random.RandomWrapper.value
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapper.value
+  nameWithType: RandomWrapper.value
+- uid: TestHelper.Random.RandomWrapperTest
+  name: RandomWrapperTest
+  href: api/TestHelper.Random.RandomWrapperTest.html
+  commentId: T:TestHelper.Random.RandomWrapperTest
+  fullName: TestHelper.Random.RandomWrapperTest
+  nameWithType: RandomWrapperTest
+- uid: TestHelper.Random.RandomWrapperTest.Constructor_DefaultConstructor_UsingTickCount
+  name: Constructor_DefaultConstructor_UsingTickCount()
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Constructor_DefaultConstructor_UsingTickCount
+  commentId: M:TestHelper.Random.RandomWrapperTest.Constructor_DefaultConstructor_UsingTickCount
+  fullName: TestHelper.Random.RandomWrapperTest.Constructor_DefaultConstructor_UsingTickCount()
+  nameWithType: RandomWrapperTest.Constructor_DefaultConstructor_UsingTickCount()
+- uid: TestHelper.Random.RandomWrapperTest.Constructor_DefaultConstructor_UsingTickCount*
+  name: Constructor_DefaultConstructor_UsingTickCount
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Constructor_DefaultConstructor_UsingTickCount_
+  commentId: Overload:TestHelper.Random.RandomWrapperTest.Constructor_DefaultConstructor_UsingTickCount
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapperTest.Constructor_DefaultConstructor_UsingTickCount
+  nameWithType: RandomWrapperTest.Constructor_DefaultConstructor_UsingTickCount
+- uid: TestHelper.Random.RandomWrapperTest.Constructor_NegativeSeedValue_GotSameValue
+  name: Constructor_NegativeSeedValue_GotSameValue()
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Constructor_NegativeSeedValue_GotSameValue
+  commentId: M:TestHelper.Random.RandomWrapperTest.Constructor_NegativeSeedValue_GotSameValue
+  fullName: TestHelper.Random.RandomWrapperTest.Constructor_NegativeSeedValue_GotSameValue()
+  nameWithType: RandomWrapperTest.Constructor_NegativeSeedValue_GotSameValue()
+- uid: TestHelper.Random.RandomWrapperTest.Constructor_NegativeSeedValue_GotSameValue*
+  name: Constructor_NegativeSeedValue_GotSameValue
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Constructor_NegativeSeedValue_GotSameValue_
+  commentId: Overload:TestHelper.Random.RandomWrapperTest.Constructor_NegativeSeedValue_GotSameValue
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapperTest.Constructor_NegativeSeedValue_GotSameValue
+  nameWithType: RandomWrapperTest.Constructor_NegativeSeedValue_GotSameValue
+- uid: TestHelper.Random.RandomWrapperTest.Constructor_SameSeedValue_GotSameValue
+  name: Constructor_SameSeedValue_GotSameValue()
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Constructor_SameSeedValue_GotSameValue
+  commentId: M:TestHelper.Random.RandomWrapperTest.Constructor_SameSeedValue_GotSameValue
+  fullName: TestHelper.Random.RandomWrapperTest.Constructor_SameSeedValue_GotSameValue()
+  nameWithType: RandomWrapperTest.Constructor_SameSeedValue_GotSameValue()
+- uid: TestHelper.Random.RandomWrapperTest.Constructor_SameSeedValue_GotSameValue*
+  name: Constructor_SameSeedValue_GotSameValue
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Constructor_SameSeedValue_GotSameValue_
+  commentId: Overload:TestHelper.Random.RandomWrapperTest.Constructor_SameSeedValue_GotSameValue
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapperTest.Constructor_SameSeedValue_GotSameValue
+  nameWithType: RandomWrapperTest.Constructor_SameSeedValue_GotSameValue
+- uid: TestHelper.Random.RandomWrapperTest.NextDouble_GotNumberBetween0to1
+  name: NextDouble_GotNumberBetween0to1()
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_NextDouble_GotNumberBetween0to1
+  commentId: M:TestHelper.Random.RandomWrapperTest.NextDouble_GotNumberBetween0to1
+  fullName: TestHelper.Random.RandomWrapperTest.NextDouble_GotNumberBetween0to1()
+  nameWithType: RandomWrapperTest.NextDouble_GotNumberBetween0to1()
+- uid: TestHelper.Random.RandomWrapperTest.NextDouble_GotNumberBetween0to1*
+  name: NextDouble_GotNumberBetween0to1
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_NextDouble_GotNumberBetween0to1_
+  commentId: Overload:TestHelper.Random.RandomWrapperTest.NextDouble_GotNumberBetween0to1
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapperTest.NextDouble_GotNumberBetween0to1
+  nameWithType: RandomWrapperTest.NextDouble_GotNumberBetween0to1
+- uid: TestHelper.Random.RandomWrapperTest.Next_GotNonNegativeRandomInteger
+  name: Next_GotNonNegativeRandomInteger()
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Next_GotNonNegativeRandomInteger
+  commentId: M:TestHelper.Random.RandomWrapperTest.Next_GotNonNegativeRandomInteger
+  fullName: TestHelper.Random.RandomWrapperTest.Next_GotNonNegativeRandomInteger()
+  nameWithType: RandomWrapperTest.Next_GotNonNegativeRandomInteger()
+- uid: TestHelper.Random.RandomWrapperTest.Next_GotNonNegativeRandomInteger*
+  name: Next_GotNonNegativeRandomInteger
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Next_GotNonNegativeRandomInteger_
+  commentId: Overload:TestHelper.Random.RandomWrapperTest.Next_GotNonNegativeRandomInteger
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapperTest.Next_GotNonNegativeRandomInteger
+  nameWithType: RandomWrapperTest.Next_GotNonNegativeRandomInteger
+- uid: TestHelper.Random.RandomWrapperTest.Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax
+  name: Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax()
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax
+  commentId: M:TestHelper.Random.RandomWrapperTest.Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax
+  fullName: TestHelper.Random.RandomWrapperTest.Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax()
+  nameWithType: RandomWrapperTest.Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax()
+- uid: TestHelper.Random.RandomWrapperTest.Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax*
+  name: Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax_
+  commentId: Overload:TestHelper.Random.RandomWrapperTest.Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapperTest.Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax
+  nameWithType: RandomWrapperTest.Next_WithMaxValue_GotRandomIntegerLessThanSpecifiedMax
+- uid: TestHelper.Random.RandomWrapperTest.Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange
+  name: Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange()
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange
+  commentId: M:TestHelper.Random.RandomWrapperTest.Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange
+  fullName: TestHelper.Random.RandomWrapperTest.Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange()
+  nameWithType: RandomWrapperTest.Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange()
+- uid: TestHelper.Random.RandomWrapperTest.Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange*
+  name: Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange
+  href: api/TestHelper.Random.RandomWrapperTest.html#TestHelper_Random_RandomWrapperTest_Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange_
+  commentId: Overload:TestHelper.Random.RandomWrapperTest.Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapperTest.Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange
+  nameWithType: RandomWrapperTest.Next_WithMinAndMaxValue_GotRandomIntegerWithinSpecifiedRange
+- uid: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom
+  name: RandomWrapperTestToUseInsteadOfUnityEngineRandom
+  href: api/TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.html
+  commentId: T:TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom
+  fullName: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom
+  nameWithType: RandomWrapperTestToUseInsteadOfUnityEngineRandom
+- uid: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.InitState_RecreateRandomWithSeed
+  name: InitState_RecreateRandomWithSeed()
+  href: api/TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.html#TestHelper_Random_RandomWrapperTestToUseInsteadOfUnityEngineRandom_InitState_RecreateRandomWithSeed
+  commentId: M:TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.InitState_RecreateRandomWithSeed
+  fullName: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.InitState_RecreateRandomWithSeed()
+  nameWithType: RandomWrapperTestToUseInsteadOfUnityEngineRandom.InitState_RecreateRandomWithSeed()
+- uid: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.InitState_RecreateRandomWithSeed*
+  name: InitState_RecreateRandomWithSeed
+  href: api/TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.html#TestHelper_Random_RandomWrapperTestToUseInsteadOfUnityEngineRandom_InitState_RecreateRandomWithSeed_
+  commentId: Overload:TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.InitState_RecreateRandomWithSeed
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.InitState_RecreateRandomWithSeed
+  nameWithType: RandomWrapperTestToUseInsteadOfUnityEngineRandom.InitState_RecreateRandomWithSeed
+- uid: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.IntRange_GotRandomIntegerWithinSpecifiedRange
+  name: IntRange_GotRandomIntegerWithinSpecifiedRange()
+  href: api/TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.html#TestHelper_Random_RandomWrapperTestToUseInsteadOfUnityEngineRandom_IntRange_GotRandomIntegerWithinSpecifiedRange
+  commentId: M:TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.IntRange_GotRandomIntegerWithinSpecifiedRange
+  fullName: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.IntRange_GotRandomIntegerWithinSpecifiedRange()
+  nameWithType: RandomWrapperTestToUseInsteadOfUnityEngineRandom.IntRange_GotRandomIntegerWithinSpecifiedRange()
+- uid: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.IntRange_GotRandomIntegerWithinSpecifiedRange*
+  name: IntRange_GotRandomIntegerWithinSpecifiedRange
+  href: api/TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.html#TestHelper_Random_RandomWrapperTestToUseInsteadOfUnityEngineRandom_IntRange_GotRandomIntegerWithinSpecifiedRange_
+  commentId: Overload:TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.IntRange_GotRandomIntegerWithinSpecifiedRange
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.IntRange_GotRandomIntegerWithinSpecifiedRange
+  nameWithType: RandomWrapperTestToUseInsteadOfUnityEngineRandom.IntRange_GotRandomIntegerWithinSpecifiedRange
+- uid: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.Value_GotNumberBetween0to1
+  name: Value_GotNumberBetween0to1()
+  href: api/TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.html#TestHelper_Random_RandomWrapperTestToUseInsteadOfUnityEngineRandom_Value_GotNumberBetween0to1
+  commentId: M:TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.Value_GotNumberBetween0to1
+  fullName: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.Value_GotNumberBetween0to1()
+  nameWithType: RandomWrapperTestToUseInsteadOfUnityEngineRandom.Value_GotNumberBetween0to1()
+- uid: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.Value_GotNumberBetween0to1*
+  name: Value_GotNumberBetween0to1
+  href: api/TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.html#TestHelper_Random_RandomWrapperTestToUseInsteadOfUnityEngineRandom_Value_GotNumberBetween0to1_
+  commentId: Overload:TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.Value_GotNumberBetween0to1
+  isSpec: "True"
+  fullName: TestHelper.Random.RandomWrapperTestToUseInsteadOfUnityEngineRandom.Value_GotNumberBetween0to1
+  nameWithType: RandomWrapperTestToUseInsteadOfUnityEngineRandom.Value_GotNumberBetween0to1
+- uid: TestHelper.Random.SpyRandomTest
+  name: SpyRandomTest
+  href: api/TestHelper.Random.SpyRandomTest.html
+  commentId: T:TestHelper.Random.SpyRandomTest
+  fullName: TestHelper.Random.SpyRandomTest
+  nameWithType: SpyRandomTest
+- uid: TestHelper.Random.SpyRandomTest.Next_Capture(System.Int32)
+  name: Next_Capture(int)
+  href: api/TestHelper.Random.SpyRandomTest.html#TestHelper_Random_SpyRandomTest_Next_Capture_System_Int32_
+  commentId: M:TestHelper.Random.SpyRandomTest.Next_Capture(System.Int32)
+  name.vb: Next_Capture(Integer)
+  fullName: TestHelper.Random.SpyRandomTest.Next_Capture(int)
+  fullName.vb: TestHelper.Random.SpyRandomTest.Next_Capture(Integer)
+  nameWithType: SpyRandomTest.Next_Capture(int)
+  nameWithType.vb: SpyRandomTest.Next_Capture(Integer)
+- uid: TestHelper.Random.SpyRandomTest.Next_Capture*
+  name: Next_Capture
+  href: api/TestHelper.Random.SpyRandomTest.html#TestHelper_Random_SpyRandomTest_Next_Capture_
+  commentId: Overload:TestHelper.Random.SpyRandomTest.Next_Capture
+  isSpec: "True"
+  fullName: TestHelper.Random.SpyRandomTest.Next_Capture
+  nameWithType: SpyRandomTest.Next_Capture
 - uid: TestHelper.Random.StubRandomTest
   name: StubRandomTest
   href: api/TestHelper.Random.StubRandomTest.html
@@ -573,16 +1004,82 @@ references:
   isSpec: "True"
   fullName: TestHelper.Random.StubRandomTest.Next_ReturnSpecifiedValues
   nameWithType: StubRandomTest.Next_ReturnSpecifiedValues
-- uid: TestHelper.Random.StubRandomTest.ToString_ReturnName
-  name: ToString_ReturnName()
-  href: api/TestHelper.Random.StubRandomTest.html#TestHelper_Random_StubRandomTest_ToString_ReturnName
-  commentId: M:TestHelper.Random.StubRandomTest.ToString_ReturnName
-  fullName: TestHelper.Random.StubRandomTest.ToString_ReturnName()
-  nameWithType: StubRandomTest.ToString_ReturnName()
-- uid: TestHelper.Random.StubRandomTest.ToString_ReturnName*
-  name: ToString_ReturnName
-  href: api/TestHelper.Random.StubRandomTest.html#TestHelper_Random_StubRandomTest_ToString_ReturnName_
-  commentId: Overload:TestHelper.Random.StubRandomTest.ToString_ReturnName
+- uid: TestHelper.Random.TestDoubles
+  name: TestHelper.Random.TestDoubles
+  href: api/TestHelper.Random.TestDoubles.html
+  commentId: N:TestHelper.Random.TestDoubles
+  fullName: TestHelper.Random.TestDoubles
+  nameWithType: TestHelper.Random.TestDoubles
+- uid: TestHelper.Random.TestDoubles.SpyRandom
+  name: SpyRandom
+  href: api/TestHelper.Random.TestDoubles.SpyRandom.html
+  commentId: T:TestHelper.Random.TestDoubles.SpyRandom
+  fullName: TestHelper.Random.TestDoubles.SpyRandom
+  nameWithType: SpyRandom
+- uid: TestHelper.Random.TestDoubles.SpyRandom.CapturedMaxValue
+  name: CapturedMaxValue
+  href: api/TestHelper.Random.TestDoubles.SpyRandom.html#TestHelper_Random_TestDoubles_SpyRandom_CapturedMaxValue
+  commentId: P:TestHelper.Random.TestDoubles.SpyRandom.CapturedMaxValue
+  fullName: TestHelper.Random.TestDoubles.SpyRandom.CapturedMaxValue
+  nameWithType: SpyRandom.CapturedMaxValue
+- uid: TestHelper.Random.TestDoubles.SpyRandom.CapturedMaxValue*
+  name: CapturedMaxValue
+  href: api/TestHelper.Random.TestDoubles.SpyRandom.html#TestHelper_Random_TestDoubles_SpyRandom_CapturedMaxValue_
+  commentId: Overload:TestHelper.Random.TestDoubles.SpyRandom.CapturedMaxValue
   isSpec: "True"
-  fullName: TestHelper.Random.StubRandomTest.ToString_ReturnName
-  nameWithType: StubRandomTest.ToString_ReturnName
+  fullName: TestHelper.Random.TestDoubles.SpyRandom.CapturedMaxValue
+  nameWithType: SpyRandom.CapturedMaxValue
+- uid: TestHelper.Random.TestDoubles.SpyRandom.Next(System.Int32)
+  name: Next(int)
+  href: api/TestHelper.Random.TestDoubles.SpyRandom.html#TestHelper_Random_TestDoubles_SpyRandom_Next_System_Int32_
+  commentId: M:TestHelper.Random.TestDoubles.SpyRandom.Next(System.Int32)
+  name.vb: Next(Integer)
+  fullName: TestHelper.Random.TestDoubles.SpyRandom.Next(int)
+  fullName.vb: TestHelper.Random.TestDoubles.SpyRandom.Next(Integer)
+  nameWithType: SpyRandom.Next(int)
+  nameWithType.vb: SpyRandom.Next(Integer)
+- uid: TestHelper.Random.TestDoubles.SpyRandom.Next*
+  name: Next
+  href: api/TestHelper.Random.TestDoubles.SpyRandom.html#TestHelper_Random_TestDoubles_SpyRandom_Next_
+  commentId: Overload:TestHelper.Random.TestDoubles.SpyRandom.Next
+  isSpec: "True"
+  fullName: TestHelper.Random.TestDoubles.SpyRandom.Next
+  nameWithType: SpyRandom.Next
+- uid: TestHelper.Random.TestDoubles.StubRandom
+  name: StubRandom
+  href: api/TestHelper.Random.TestDoubles.StubRandom.html
+  commentId: T:TestHelper.Random.TestDoubles.StubRandom
+  fullName: TestHelper.Random.TestDoubles.StubRandom
+  nameWithType: StubRandom
+- uid: TestHelper.Random.TestDoubles.StubRandom.#ctor(System.Int32[])
+  name: StubRandom(params int[])
+  href: api/TestHelper.Random.TestDoubles.StubRandom.html#TestHelper_Random_TestDoubles_StubRandom__ctor_System_Int32___
+  commentId: M:TestHelper.Random.TestDoubles.StubRandom.#ctor(System.Int32[])
+  name.vb: New(ParamArray Integer())
+  fullName: TestHelper.Random.TestDoubles.StubRandom.StubRandom(params int[])
+  fullName.vb: TestHelper.Random.TestDoubles.StubRandom.New(ParamArray Integer())
+  nameWithType: StubRandom.StubRandom(params int[])
+  nameWithType.vb: StubRandom.New(ParamArray Integer())
+- uid: TestHelper.Random.TestDoubles.StubRandom.#ctor*
+  name: StubRandom
+  href: api/TestHelper.Random.TestDoubles.StubRandom.html#TestHelper_Random_TestDoubles_StubRandom__ctor_
+  commentId: Overload:TestHelper.Random.TestDoubles.StubRandom.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: TestHelper.Random.TestDoubles.StubRandom.StubRandom
+  fullName.vb: TestHelper.Random.TestDoubles.StubRandom.New
+  nameWithType: StubRandom.StubRandom
+  nameWithType.vb: StubRandom.New
+- uid: TestHelper.Random.TestDoubles.StubRandom.Next
+  name: Next()
+  href: api/TestHelper.Random.TestDoubles.StubRandom.html#TestHelper_Random_TestDoubles_StubRandom_Next
+  commentId: M:TestHelper.Random.TestDoubles.StubRandom.Next
+  fullName: TestHelper.Random.TestDoubles.StubRandom.Next()
+  nameWithType: StubRandom.Next()
+- uid: TestHelper.Random.TestDoubles.StubRandom.Next*
+  name: Next
+  href: api/TestHelper.Random.TestDoubles.StubRandom.html#TestHelper_Random_TestDoubles_StubRandom_Next_
+  commentId: Overload:TestHelper.Random.TestDoubles.StubRandom.Next
+  isSpec: "True"
+  fullName: TestHelper.Random.TestDoubles.StubRandom.Next
+  nameWithType: StubRandom.Next
