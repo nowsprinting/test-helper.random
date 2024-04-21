@@ -10,7 +10,9 @@
   "documentationUrl": "https://github.com/nowsprinting/test-helper.random/blob/master/README.md",
   "files": [
     "Documentation~",
+    "Runtime",
     "Runtime*",
+    "Tests",
     "Tests*",
     "LICENSE.md*",
     "package.json*",
