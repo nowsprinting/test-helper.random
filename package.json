@@ -9,21 +9,21 @@
   "displayName": "Random Test Helper",
   "documentationUrl": "https://github.com/nowsprinting/test-helper.random/blob/master/README.md",
   "files": [
-    "Documentation~",
-    "Runtime",
-    "Runtime*",
-    "Tests",
-    "Tests*",
+    "Documentation~/",
+    "Runtime/",
+    "Runtime.meta",
+    "Tests/",
+    "Tests.meta",
     "LICENSE.md*",
     "package.json*",
     "README.md*"
   ],
   "keywords": [
     "TestFramework",
-    "unit testing",
     "integration testing",
+    "random",
     "test",
-    "random"
+    "unit testing"
   ],
   "license": "MIT",
   "licensesUrl": "https://github.com/nowsprinting/test-helper.random/blob/master/LICENSE.md",
