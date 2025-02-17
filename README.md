@@ -140,13 +140,6 @@ Add this repository as a submodule to the Packages/ directory in your project.
 git submodule add git@github.com:nowsprinting/test-helper.random.git Packages/com.nowsprinting.test-helper.random
 ```
 
-Generate a temporary project and run tests on each Unity version from the command line.
-
-```bash
-make create_project
-UNITY_VERSION=2019.4.40f1 make -k test
-```
-
 
 ### Run tests
 
