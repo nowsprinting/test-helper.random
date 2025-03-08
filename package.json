@@ -1,6 +1,6 @@
 {
   "name": "com.nowsprinting.test-helper.random",
-  "description": "Wrapper and test stubs reference implementation for Random class.",
+  "description": "Wrapper and test stubs reference implementation for UnityEngine.Random.",
   "version": "0.3.0",
   "author": "Koji Hasegawa <hasegawa@hubsys.co.jp> (https://github.com/nowsprinting)",
   "category": "Unity Test Framework",
@@ -19,11 +19,12 @@
     "README.md*"
   ],
   "keywords": [
+    "Unity",
     "TestFramework",
-    "integration testing",
     "random",
-    "test",
-    "unit testing"
+    "testing",
+    "unit tests",
+    "integration tests"
   ],
   "license": "MIT",
   "licensesUrl": "https://github.com/nowsprinting/test-helper.random/blob/master/LICENSE.md",
