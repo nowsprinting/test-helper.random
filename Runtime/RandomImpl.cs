@@ -105,7 +105,7 @@ namespace TestHelper.Random
         /// <inheritdoc />
         public override string ToString()
         {
-            return $"RandomImpl using System.Random, seed={_seed}";
+            return $"RandomImpl includes System.Random, seed={_seed}";
         }
     }
 }

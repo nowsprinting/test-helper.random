@@ -34,7 +34,7 @@ namespace TestHelper.Random
         /// <inheritdoc />
         public override string ToString()
         {
-            return $"RandomWrapper using System.Random, seed={_seed}";
+            return $"RandomWrapper includes System.Random, seed={_seed}";
         }
 
 
