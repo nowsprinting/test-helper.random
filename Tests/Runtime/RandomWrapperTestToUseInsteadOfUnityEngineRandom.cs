@@ -22,7 +22,7 @@ namespace TestHelper.Random
             const int Seed = 100;
             Random.InitState(Seed);
 
-            Assert.That(Random.ToString(), Is.EqualTo($"RandomWrapper using System.Random, seed={Seed}"));
+            Assert.That(Random.ToString(), Is.EqualTo($"RandomWrapper includes System.Random, seed={Seed}"));
         }
 
         // TODO: FloatRange
