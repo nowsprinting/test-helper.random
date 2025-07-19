@@ -4,30 +4,32 @@
 [![Test](https://github.com/nowsprinting/test-helper.random/actions/workflows/test.yml/badge.svg)](https://github.com/nowsprinting/test-helper.random/actions/workflows/test.yml)
 [![openupm](https://img.shields.io/npm/v/com.nowsprinting.test-helper.random?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.nowsprinting.test-helper.random/)
 
-Wrapper and test stubs reference implementation for [UnityEngine.Random](https://docs.unity3d.com/ScriptReference/Random.html).  
+Library for mocking the [UnityEngine.Random](https://docs.unity3d.com/ScriptReference/Random.html).  
 Required Unity 2019 LTS or later.
 
 
 
 ## Features
 
-### Wrapper interface for `System.Random` and `UnityEngine.Random`
+### Mocking `UnityEngine.Random`
 
-`IRandom` interface is a wrapper interface for `System.Random` and `UnityEngine.Random` class.
-You can inject a test stub in your tests by replacing it with a `RandomWrapper` instance.
+The `UnityEngine.Random` class provides static methods.
+You can inject test stubs into your tests by replacing `Random` with the `IRandom` interface.
 
 Usage:
 
-1.Insert the code below into your product code, so replace `UnityEngine.Random` to `TestHelper.Random.RandomWrapper` instance.
+#### 1. Insert the code below into your product code to replace `UnityEngine.Random` with a `TestHelper.Random.RandomWrapper` instance
 
 ```csharp
-internal IRandom Random { private get; set; } = new RandomWrapper();
+#if UNITY_INCLUDE_TESTS
+    internal IRandom Random { private get; set; } = new RandomWrapper();
+#endif
 ```
 
-> [!NOTE]  
-> `RandomWrapper` also works at runtime, but if you want to strip the extra assembly (`TestHelper.Input`) from your IL2CPP build, you can use the `#if UNITY_INCLUDE_TESTS` directive.
+> [!TIP]  
+> `RandomWrapper` is a wrapper implementation over `System.Random` that works at runtime, but you can remove the `TestHelper.Random` assembly from your build using the `#if UNITY_INCLUDE_TESTS` directive.
 
-2.Create test stub in your test.
+#### 2. Create test stub in your test
 
 ```csharp
 public class StubRandom : RandomWrapper
@@ -52,7 +54,7 @@ public class StubRandom : RandomWrapper
 }
 ```
 
-3.Write test using test stub.
+#### 3. Write test using test stub
 
 ```csharp
 [Test]
