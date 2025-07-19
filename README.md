@@ -27,7 +27,7 @@ Usage:
 ```
 
 > [!TIP]  
-> `RandomWrapper` is a wrapper implementation over `System.Random` that works at runtime, but you can remove the `TestHelper.Random` assembly from your build using the `#if UNITY_INCLUDE_TESTS` directive.
+> `RandomWrapper` is a wrapper around `System.Random` that works at runtime, but you can remove the `TestHelper.Random` assembly from your build using the `#if UNITY_INCLUDE_TESTS` directive.
 
 #### 2. Create test stub in your test
 
