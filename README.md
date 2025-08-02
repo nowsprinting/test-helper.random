@@ -101,15 +101,6 @@ You can choose from two typical installation methods.
 ![](Documentation~/PackageManager_Light.png#gh-light-mode-only)
 
 
-### Install via OpenUPM-CLI
-
-If you installed [openupm-cli](https://github.com/openupm/openupm-cli), run the command below:
-
-```bash
-openupm add com.nowsprinting.test-helper.random
-```
-
-
 ### Add assembly reference
 
 1. Open your product and test assembly definition file (.asmdef) in **Inspector** window
@@ -141,6 +132,10 @@ Add this repository as a submodule to the Packages/ directory in your project.
 ```bash
 git submodule add git@github.com:nowsprinting/test-helper.random.git Packages/com.nowsprinting.test-helper.random
 ```
+
+> [!WARNING]  
+> Required installation packages for running tests (when embedded package or adding to the `testables` in manifest.json), as follows:
+> - [Test Helper](https://github.com/nowsprinting/test-helper) package v1.2.1 or later
 
 
 ### Run tests
