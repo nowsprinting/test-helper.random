@@ -126,6 +126,7 @@ create_project:
 	touch $(PROJECT_HOME)/Assets/.gitkeep
 	openupm add -c $(PROJECT_HOME) -f com.unity.test-framework@stable
 	openupm add -c $(PROJECT_HOME) -f com.unity.testtools.codecoverage
+	openupm add -c $(PROJECT_HOME) -f com.nowsprinting.test-helper
 	openupm add -c $(PROJECT_HOME) -ft $(PACKAGE_NAME)@file:../../
 
 .PHONY: remove_project
