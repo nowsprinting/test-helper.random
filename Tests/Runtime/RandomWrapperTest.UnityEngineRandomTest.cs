@@ -121,7 +121,7 @@ namespace TestHelper.Random
                 Assert.That(q.w, Is.InRange(-1.0f, 1.0f));
 
                 var magnitude = Mathf.Sqrt(q.x * q.x + q.y * q.y + q.z * q.z + q.w * q.w);
-                Assert.That(magnitude, Is.EqualTo(1.0f).Within(0.5f), $"Quaternion {q} is not normalized");
+                Assert.That(magnitude, Is.EqualTo(1.0f).Within(0.001f), $"Quaternion {q} is not normalized");
             }
 
             [Test]
@@ -148,7 +148,7 @@ namespace TestHelper.Random
                 float vMin = 0.1f, vMax = 0.7f;
                 float aMin = 0.5f, aMax = 1.0f;
 
-                var color = UnityEngine.Random.ColorHSV(hMin, hMax, sMin, sMax, vMin, vMax, aMin, aMax);
+                var color = Random.ColorHSV(hMin, hMax, sMin, sMax, vMin, vMax, aMin, aMax);
 
                 Color.RGBToHSV(color, out float h, out float s, out float v);
 

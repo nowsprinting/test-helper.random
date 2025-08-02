@@ -114,19 +114,20 @@ namespace TestHelper.Random
         {
             get
             {
-                var u = this.value;
-                var v = this.value;
-                var w = this.value;
+                // Ken Shoemake's method for uniform random quaternion
+                var u1 = this.value;
+                var u2 = this.value;
+                var u3 = this.value;
 
-                // Convert to spherical coordinates
-                var theta = 2 * Mathf.PI * u;    // azimuthal angle
-                var phi = Mathf.Acos(2 * v - 1); // polar angle
+                var sqrt1MinusU1 = Mathf.Sqrt(1 - u1);
+                var sqrtU1 = Mathf.Sqrt(u1);
+                var theta1 = 2 * Mathf.PI * u2;
+                var theta2 = 2 * Mathf.PI * u3;
 
-                // Convert to Cartesian coordinates
-                var sinPhi = Mathf.Sin(phi);
-                var x = sinPhi * Mathf.Cos(theta);
-                var y = sinPhi * Mathf.Sin(theta);
-                var z = Mathf.Cos(phi);
+                var x = sqrt1MinusU1 * Mathf.Sin(theta1);
+                var y = sqrt1MinusU1 * Mathf.Cos(theta1);
+                var z = sqrtU1 * Mathf.Sin(theta2);
+                var w = sqrtU1 * Mathf.Cos(theta2);
 
                 return new Quaternion(x, y, z, w);
             }
