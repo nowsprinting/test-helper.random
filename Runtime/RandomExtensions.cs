@@ -1,15 +1,13 @@
-// Copyright (c) 2023 Koji Hasegawa.
+// Copyright (c) 2023-2025 Koji Hasegawa.
 // This software is released under the MIT License.
 
-using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
 
 namespace TestHelper.Random
 {
     /// <summary>
-    /// Random number generator extensions implement some useful methods for testing.
+    /// Pseudo-random number generator extensions implement some useful methods for testing.
     /// </summary>
-    [SuppressMessage("ReSharper", "InvalidXmlDocComment")]
     public static class RandomExtensions
     {
         private const int Digits = 3;
