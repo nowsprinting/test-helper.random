@@ -87,6 +87,7 @@ jobs:
           npm install -g openupm-cli
           openupm add -f com.unity.test-framework@stable
           openupm add -f com.unity.testtools.codecoverage
+          openupm add -f com.nowsprinting.test-helper
         working-directory: ${{ env.CREATED_PROJECT_PATH }}
 
       - name: Set coverage assembly filters

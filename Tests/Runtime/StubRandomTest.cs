@@ -1,8 +1,9 @@
-// Copyright (c) 2023 Koji Hasegawa.
+// Copyright (c) 2023-2025 Koji Hasegawa.
 // This software is released under the MIT License.
 
 using NUnit.Framework;
 using TestHelper.Random.TestDoubles;
+using TestHelper.Statistics;
 
 namespace TestHelper.Random
 {
@@ -14,9 +15,11 @@ namespace TestHelper.Random
         {
             IRandom sut = new StubRandom(2, 3, 5);
 
-            Assert.That(sut.Next(), Is.EqualTo(2), "1st value");
-            Assert.That(sut.Next(), Is.EqualTo(3), "2nd value");
-            Assert.That(sut.Next(), Is.EqualTo(5), "3rd value");
+            var actual = Experiment.Run(
+                () => sut.Next(),
+                3);
+
+            Assert.That(actual.Samples, Is.EqualTo(new[] { 2, 3, 5 }));
         }
     }
 }
