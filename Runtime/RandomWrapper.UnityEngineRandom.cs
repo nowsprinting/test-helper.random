@@ -19,12 +19,23 @@ namespace TestHelper.Random
         }
 
         /// <inheritdoc />
-        public virtual UnityEngine.Random.State state { get; set; }
+        public virtual UnityEngine.Random.State state
+        {
+            get
+            {
+                throw new NotSupportedException();
+            }
+            set
+            {
+                throw new NotSupportedException();
+            }
+        }
 
         /// <inheritdoc />
         public virtual float Range(float minInclusive, float maxInclusive)
         {
-            throw new NotImplementedException();
+            var d = NextDouble();
+            return (float)(minInclusive + (maxInclusive - minInclusive) * d);
         }
 
         /// <inheritdoc />
@@ -47,7 +58,18 @@ namespace TestHelper.Random
         {
             get
             {
-                throw new NotImplementedException();
+                var u = this.value;
+                var v = this.value;
+                var theta = 2 * Mathf.PI * u;
+                var phi = Mathf.Acos(2 * v - 1);
+                var r = Mathf.Pow(this.value, 1f / 3f);
+
+                var sinPhi = Mathf.Sin(phi);
+                var x = r * sinPhi * Mathf.Cos(theta);
+                var y = r * sinPhi * Mathf.Sin(theta);
+                var z = r * Mathf.Cos(phi);
+
+                return new Vector3(x, y, z);
             }
         }
 
@@ -56,7 +78,15 @@ namespace TestHelper.Random
         {
             get
             {
-                throw new NotImplementedException();
+                var u = this.value;
+                var v = this.value;
+                var theta = 2 * Mathf.PI * u;
+                var r = Mathf.Sqrt(v);
+
+                var x = r * Mathf.Cos(theta);
+                var y = r * Mathf.Sin(theta);
+
+                return new Vector2(x, y);
             }
         }
 
@@ -65,7 +95,17 @@ namespace TestHelper.Random
         {
             get
             {
-                throw new NotImplementedException();
+                var u = this.value;
+                var v = this.value;
+                var theta = 2 * Mathf.PI * u;
+                var phi = Mathf.Acos(2 * v - 1);
+
+                var sinPhi = Mathf.Sin(phi);
+                var x = sinPhi * Mathf.Cos(theta);
+                var y = sinPhi * Mathf.Sin(theta);
+                var z = Mathf.Cos(phi);
+
+                return new Vector3(x, y, z);
             }
         }
 
@@ -74,7 +114,21 @@ namespace TestHelper.Random
         {
             get
             {
-                throw new NotImplementedException();
+                var u = this.value;
+                var v = this.value;
+                var w = this.value;
+
+                // Convert to spherical coordinates
+                var theta = 2 * Mathf.PI * u;    // azimuthal angle
+                var phi = Mathf.Acos(2 * v - 1); // polar angle
+
+                // Convert to Cartesian coordinates
+                var sinPhi = Mathf.Sin(phi);
+                var x = sinPhi * Mathf.Cos(theta);
+                var y = sinPhi * Mathf.Sin(theta);
+                var z = Mathf.Cos(phi);
+
+                return new Quaternion(x, y, z, w);
             }
         }
 
@@ -83,7 +137,21 @@ namespace TestHelper.Random
         {
             get
             {
-                throw new NotImplementedException();
+                var u = this.value;
+                var v = this.value;
+                var w = this.value;
+
+                // Convert to spherical coordinates
+                var theta = 2 * Mathf.PI * u;    // azimuthal angle
+                var phi = Mathf.Acos(2 * v - 1); // polar angle
+
+                // Convert to Cartesian coordinates
+                var sinPhi = Mathf.Sin(phi);
+                var x = sinPhi * Mathf.Cos(theta);
+                var y = sinPhi * Mathf.Sin(theta);
+                var z = Mathf.Cos(phi);
+
+                return new Quaternion(x, y, z, w).normalized;
             }
         }
 
