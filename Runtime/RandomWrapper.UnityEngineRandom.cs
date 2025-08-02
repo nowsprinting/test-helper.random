@@ -15,7 +15,7 @@ namespace TestHelper.Random
         public virtual void InitState(int seed)
         {
             _random = new System.Random(seed);
-            _seed = seed;
+            Seed = seed;
         }
 
         /// <inheritdoc />

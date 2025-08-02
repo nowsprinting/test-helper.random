@@ -11,7 +11,11 @@ namespace TestHelper.Random
     public partial class RandomWrapper : IRandom
     {
         private System.Random _random;
-        private int _seed;
+
+        /// <summary>
+        /// Seed value.
+        /// </summary>
+        public int Seed { get; private set; }
 
         /// <summary>
         /// Initializes a new instance of the <c>RandomWrapper</c> class,
@@ -21,7 +25,7 @@ namespace TestHelper.Random
         public RandomWrapper(int seed)
         {
             _random = new System.Random(seed);
-            _seed = seed;
+            Seed = seed;
         }
 
         /// <summary>
@@ -33,7 +37,7 @@ namespace TestHelper.Random
         /// <inheritdoc />
         public override string ToString()
         {
-            return $"RandomWrapper includes System.Random, seed={_seed}";
+            return $"RandomWrapper includes System.Random, seed={Seed}";
         }
 
         /// <inheritdoc />

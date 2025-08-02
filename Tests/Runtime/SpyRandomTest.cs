@@ -1,4 +1,4 @@
-// Copyright (c) 2023 Koji Hasegawa.
+// Copyright (c) 2023-2025 Koji Hasegawa.
 // This software is released under the MIT License.
 
 using NUnit.Framework;
@@ -10,7 +10,7 @@ namespace TestHelper.Random
     public class SpyRandomTest
     {
         [Test]
-        public void Next_Capture([Values(2, 3, 5)] int expected)
+        public void Next_CaptureMaxValue([Values(2, 3, 5)] int expected)
         {
             var sut = new SpyRandom();
             sut.Next(expected);

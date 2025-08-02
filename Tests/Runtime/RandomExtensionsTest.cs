@@ -9,7 +9,7 @@ namespace TestHelper.Random
     [TestFixture]
     public class RandomExtensionsTest
     {
-        private const int RepeatCount = 10;
+        private const int RepeatCount = 1 << 10;
 
         [Test]
         [Repeat(RepeatCount)]
