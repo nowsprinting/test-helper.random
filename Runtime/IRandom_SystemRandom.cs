@@ -5,9 +5,7 @@ using System;
 
 namespace TestHelper.Random
 {
-    /// <summary>
-    /// Pseudo-random number generator interface similar to <c>System.Random</c> and <c>UnityEngine.Random</c> class.
-    /// </summary>
+    // Define System.Random methods.
     public partial interface IRandom
     {
         /// <summary>
