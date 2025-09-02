@@ -33,6 +33,12 @@ namespace TestHelper.Random
         public RandomWrapper() : this(Environment.TickCount) { }
 
         /// <inheritdoc />
+        public IRandom Fork()
+        {
+            return new RandomWrapper(Next());
+        }
+
+        /// <inheritdoc />
         public override string ToString()
         {
             return $"RandomWrapper includes System.Random, seed={Seed}";

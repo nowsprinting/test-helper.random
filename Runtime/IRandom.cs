@@ -8,5 +8,10 @@ namespace TestHelper.Random
     /// </summary>
     public partial interface IRandom
     {
+        /// <summary>
+        /// Create a new instance using the value emitted by <see cref="Next()"/> method as a seed value.
+        /// </summary>
+        /// <returns>New instance</returns>
+        IRandom Fork();
     }
 }
