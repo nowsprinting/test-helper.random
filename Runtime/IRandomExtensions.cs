@@ -8,7 +8,7 @@ namespace TestHelper.Random
     /// <summary>
     /// Pseudo-random number generator extensions implement some useful methods for testing.
     /// </summary>
-    public static class RandomExtensions
+    public static class IRandomExtensions
     {
         private const int Digits = 3;
 
