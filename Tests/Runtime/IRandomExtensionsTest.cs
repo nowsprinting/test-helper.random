@@ -7,7 +7,7 @@ using UnityEngine;
 namespace TestHelper.Random
 {
     [TestFixture]
-    public class RandomExtensionsTest
+    public class IRandomExtensionsTest
     {
         private const int RepeatCount = 1 << 10;
 

@@ -48,6 +48,27 @@ namespace TestHelper.Random
             }
 
             [Test]
+            public void Fork_CreatedNewInstance()
+            {
+                var sut = new RandomWrapper();
+                var fork = sut.Fork();
+
+                Assert.That(sut, Is.Not.EqualTo(fork));
+            }
+
+            [Test]
+            public void Fork_CreatedWithSeedValueBasedOnNext()
+            {
+                const int Seed = 100;
+                var sut = new RandomWrapper(Seed);
+                var fork = sut.Fork();
+                var sameSeedRandom = new RandomWrapper(Seed);
+                var sameSeedFork = sameSeedRandom.Fork();
+
+                Assert.That(fork.Next(), Is.EqualTo(sameSeedFork.Next()));
+            }
+
+            [Test]
             public void Next_GotNonNegativeRandomInteger()
             {
                 var sut = new RandomWrapper();

@@ -6,9 +6,7 @@ using UnityEngine;
 
 namespace TestHelper.Random
 {
-    /// <summary>
-    /// Wrapper implementation for <c>IRandom</c> using <c>System.Random</c> instance.
-    /// </summary>
+    /// <inheritdoc />
     public partial class RandomWrapper : IRandom
     {
         /// <inheritdoc />
