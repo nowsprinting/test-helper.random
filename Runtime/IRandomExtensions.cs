@@ -1,7 +1,13 @@
-// Copyright (c) 2023-2025 Koji Hasegawa.
+// Copyright (c) 2023-2026 Koji Hasegawa.
 // This software is released under the MIT License.
 
 using UnityEngine;
+// System.MathF requires .NET Standard 2.1 (Unity 2021.2 or newer); aliased so that call sites need no directives.
+#if UNITY_2021_2_OR_NEWER
+using MathF = System.MathF;
+#else
+using MathF = UnityEngine.Mathf;
+#endif
 
 namespace TestHelper.Random
 {
@@ -29,7 +35,7 @@ namespace TestHelper.Random
         /// <returns>A random normalized <c>Vector2</c>.</returns>
         public static Vector2 NextNormalizedVector2(this IRandom random)
         {
-            var denominator = Mathf.Pow(10, Digits);
+            var denominator = MathF.Pow(10, Digits);
             var max = (int)denominator;
             var min = -max;
 
@@ -44,7 +50,7 @@ namespace TestHelper.Random
         /// <returns>A random normalized <c>Vector3</c>.</returns>
         public static Vector3 NextNormalizedVector3(this IRandom random)
         {
-            var denominator = Mathf.Pow(10, Digits);
+            var denominator = MathF.Pow(10, Digits);
             var max = (int)denominator;
             var min = -max;
 
