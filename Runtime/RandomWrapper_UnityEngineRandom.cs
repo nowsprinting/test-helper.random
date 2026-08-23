@@ -1,13 +1,19 @@
-// Copyright (c) 2023-2025 Koji Hasegawa.
+// Copyright (c) 2023-2026 Koji Hasegawa.
 // This software is released under the MIT License.
 
 using System;
 using UnityEngine;
+// System.MathF requires .NET Standard 2.1 (Unity 2021.2 or newer); aliased so that call sites need no directives.
+#if UNITY_2021_2_OR_NEWER
+using MathF = System.MathF;
+#else
+using MathF = UnityEngine.Mathf;
+#endif
 
 namespace TestHelper.Random
 {
     /// <inheritdoc />
-    public partial class RandomWrapper : IRandom
+    public partial class RandomWrapper
     {
         /// <inheritdoc />
         public virtual void InitState(int seed)
@@ -58,14 +64,14 @@ namespace TestHelper.Random
             {
                 var u = this.value;
                 var v = this.value;
-                var theta = 2 * Mathf.PI * u;
-                var phi = Mathf.Acos(2 * v - 1);
-                var r = Mathf.Pow(this.value, 1f / 3f);
+                var theta = 2 * MathF.PI * u;
+                var phi = MathF.Acos(2 * v - 1);
+                var r = MathF.Pow(this.value, 1f / 3f);
 
-                var sinPhi = Mathf.Sin(phi);
-                var x = r * sinPhi * Mathf.Cos(theta);
-                var y = r * sinPhi * Mathf.Sin(theta);
-                var z = r * Mathf.Cos(phi);
+                var sinPhi = MathF.Sin(phi);
+                var x = r * sinPhi * MathF.Cos(theta);
+                var y = r * sinPhi * MathF.Sin(theta);
+                var z = r * MathF.Cos(phi);
 
                 return new Vector3(x, y, z);
             }
@@ -78,11 +84,11 @@ namespace TestHelper.Random
             {
                 var u = this.value;
                 var v = this.value;
-                var theta = 2 * Mathf.PI * u;
-                var r = Mathf.Sqrt(v);
+                var theta = 2 * MathF.PI * u;
+                var r = MathF.Sqrt(v);
 
-                var x = r * Mathf.Cos(theta);
-                var y = r * Mathf.Sin(theta);
+                var x = r * MathF.Cos(theta);
+                var y = r * MathF.Sin(theta);
 
                 return new Vector2(x, y);
             }
@@ -95,13 +101,13 @@ namespace TestHelper.Random
             {
                 var u = this.value;
                 var v = this.value;
-                var theta = 2 * Mathf.PI * u;
-                var phi = Mathf.Acos(2 * v - 1);
+                var theta = 2 * MathF.PI * u;
+                var phi = MathF.Acos(2 * v - 1);
 
-                var sinPhi = Mathf.Sin(phi);
-                var x = sinPhi * Mathf.Cos(theta);
-                var y = sinPhi * Mathf.Sin(theta);
-                var z = Mathf.Cos(phi);
+                var sinPhi = MathF.Sin(phi);
+                var x = sinPhi * MathF.Cos(theta);
+                var y = sinPhi * MathF.Sin(theta);
+                var z = MathF.Cos(phi);
 
                 return new Vector3(x, y, z);
             }
@@ -117,15 +123,15 @@ namespace TestHelper.Random
                 var u2 = this.value;
                 var u3 = this.value;
 
-                var sqrt1MinusU1 = Mathf.Sqrt(1 - u1);
-                var sqrtU1 = Mathf.Sqrt(u1);
-                var theta1 = 2 * Mathf.PI * u2;
-                var theta2 = 2 * Mathf.PI * u3;
+                var sqrt1MinusU1 = MathF.Sqrt(1 - u1);
+                var sqrtU1 = MathF.Sqrt(u1);
+                var theta1 = 2 * MathF.PI * u2;
+                var theta2 = 2 * MathF.PI * u3;
 
-                var x = sqrt1MinusU1 * Mathf.Sin(theta1);
-                var y = sqrt1MinusU1 * Mathf.Cos(theta1);
-                var z = sqrtU1 * Mathf.Sin(theta2);
-                var w = sqrtU1 * Mathf.Cos(theta2);
+                var x = sqrt1MinusU1 * MathF.Sin(theta1);
+                var y = sqrt1MinusU1 * MathF.Cos(theta1);
+                var z = sqrtU1 * MathF.Sin(theta2);
+                var w = sqrtU1 * MathF.Cos(theta2);
 
                 return new Quaternion(x, y, z, w);
             }
@@ -141,14 +147,14 @@ namespace TestHelper.Random
                 var w = this.value;
 
                 // Convert to spherical coordinates
-                var theta = 2 * Mathf.PI * u;    // azimuthal angle
-                var phi = Mathf.Acos(2 * v - 1); // polar angle
+                var theta = 2 * MathF.PI * u;    // azimuthal angle
+                var phi = MathF.Acos(2 * v - 1); // polar angle
 
                 // Convert to Cartesian coordinates
-                var sinPhi = Mathf.Sin(phi);
-                var x = sinPhi * Mathf.Cos(theta);
-                var y = sinPhi * Mathf.Sin(theta);
-                var z = Mathf.Cos(phi);
+                var sinPhi = MathF.Sin(phi);
+                var x = sinPhi * MathF.Cos(theta);
+                var y = sinPhi * MathF.Sin(theta);
+                var z = MathF.Cos(phi);
 
                 return new Quaternion(x, y, z, w).normalized;
             }
